@@ -1,0 +1,240 @@
+{
+  "status": "static-combination-validation",
+  "hairstyles": [
+    {
+      "id": "ha",
+      "name": "原始髮型"
+    },
+    {
+      "id": "hb",
+      "name": "短偏分"
+    },
+    {
+      "id": "hc",
+      "name": "微蓬後梳"
+    },
+    {
+      "id": "hd",
+      "name": "微捲短髮"
+    },
+    {
+      "id": "he",
+      "name": "低束小髮髻"
+    }
+  ],
+  "outfits": [
+    {
+      "id": "tshirt-jeans",
+      "label": "T-shirt＋牛仔褲",
+      "frame": "frames/tshirt-jeans.png"
+    },
+    {
+      "id": "cardigan-straight",
+      "label": "針織外套＋直筒褲",
+      "frame": "frames/cardigan-straight.png"
+    },
+    {
+      "id": "jacket-shorts",
+      "label": "短外套＋短褲",
+      "frame": "frames/jacket-shorts.png"
+    }
+  ],
+  "face": "expression-runtime-v4 neutral",
+  "images": [
+    {
+      "hair": "ha",
+      "outfit": "tshirt-jeans",
+      "file": "frames/ha-tshirt-jeans.png",
+      "sha256": "a1688f9c28802522ce72f10f0c2914b1d079d59a6f418179a097e640f9c1aadf",
+      "canvas": [
+        128,
+        160
+      ],
+      "feet_y": 147,
+      "body_unchanged": true,
+      "neutral_face_unchanged": true
+    },
+    {
+      "hair": "ha",
+      "outfit": "cardigan-straight",
+      "file": "frames/ha-cardigan-straight.png",
+      "sha256": "46d5bc66d7d306481714bc4c556eeecf1aaa252bd746ff6ea2335f976e913831",
+      "canvas": [
+        128,
+        160
+      ],
+      "feet_y": 147,
+      "body_unchanged": true,
+      "neutral_face_unchanged": true
+    },
+    {
+      "hair": "ha",
+      "outfit": "jacket-shorts",
+      "file": "frames/ha-jacket-shorts.png",
+      "sha256": "5ed8f2d2b454c6c52551c84e48293770dc0c99d79015196122b9717755387233",
+      "canvas": [
+        128,
+        160
+      ],
+      "feet_y": 147,
+      "body_unchanged": true,
+      "neutral_face_unchanged": true
+    },
+    {
+      "hair": "hb",
+      "outfit": "tshirt-jeans",
+      "file": "frames/hb-tshirt-jeans.png",
+      "sha256": "9eddf28fdd7d9c5d0bfe5b538238d4fed975f98887d553aa91aadb4aabb46584",
+      "canvas": [
+        128,
+        160
+      ],
+      "feet_y": 147,
+      "body_unchanged": true,
+      "neutral_face_unchanged": true
+    },
+    {
+      "hair": "hb",
+      "outfit": "cardigan-straight",
+      "file": "frames/hb-cardigan-straight.png",
+      "sha256": "3b21a46a09ddf15d7af9ae475c8ea9dcb81e510da542736bf9db8207c4ea683c",
+      "canvas": [
+        128,
+        160
+      ],
+      "feet_y": 147,
+      "body_unchanged": true,
+      "neutral_face_unchanged": true
+    },
+    {
+      "hair": "hb",
+      "outfit": "jacket-shorts",
+      "file": "frames/hb-jacket-shorts.png",
+      "sha256": "325867fa6335accb6b74ec81def4d698a9899b1576ebd628936fd884c017e1c3",
+      "canvas": [
+        128,
+        160
+      ],
+      "feet_y": 147,
+      "body_unchanged": true,
+      "neutral_face_unchanged": true
+    },
+    {
+      "hair": "hc",
+      "outfit": "tshirt-jeans",
+      "file": "frames/hc-tshirt-jeans.png",
+      "sha256": "16fab7c93f2af84803c32d282ca5ca92f6c79e1950512f285ef5061bc540b4fc",
+      "canvas": [
+        128,
+        160
+      ],
+      "feet_y": 147,
+      "body_unchanged": true,
+      "neutral_face_unchanged": true
+    },
+    {
+      "hair": "hc",
+      "outfit": "cardigan-straight",
+      "file": "frames/hc-cardigan-straight.png",
+      "sha256": "1612641844568bcb5411402f097f5638aa9a92bd9747a2a691a04b3eadfd0a2e",
+      "canvas": [
+        128,
+        160
+      ],
+      "feet_y": 147,
+      "body_unchanged": true,
+      "neutral_face_unchanged": true
+    },
+    {
+      "hair": "hc",
+      "outfit": "jacket-shorts",
+      "file": "frames/hc-jacket-shorts.png",
+      "sha256": "97054682f1be3081a3ed6747b761619b80933859126d2e5b2f6ca6c646dbb565",
+      "canvas": [
+        128,
+        160
+      ],
+      "feet_y": 147,
+      "body_unchanged": true,
+      "neutral_face_unchanged": true
+    },
+    {
+      "hair": "hd",
+      "outfit": "tshirt-jeans",
+      "file": "frames/hd-tshirt-jeans.png",
+      "sha256": "8189f2e8cd2c7d77be22d1455191256333b2549e3526b5337ac1aa21eb8be4ca",
+      "canvas": [
+        128,
+        160
+      ],
+      "feet_y": 147,
+      "body_unchanged": true,
+      "neutral_face_unchanged": true
+    },
+    {
+      "hair": "hd",
+      "outfit": "cardigan-straight",
+      "file": "frames/hd-cardigan-straight.png",
+      "sha256": "77f8b0e2ba79ce61a2497551258fea97a7f28ab5e031ed1dd196d7a5050fd45e",
+      "canvas": [
+        128,
+        160
+      ],
+      "feet_y": 147,
+      "body_unchanged": true,
+      "neutral_face_unchanged": true
+    },
+    {
+      "hair": "hd",
+      "outfit": "jacket-shorts",
+      "file": "frames/hd-jacket-shorts.png",
+      "sha256": "69f7968d1ae6b5be471523858d82666bc994ed724800136c9fc8615bdfcf58ea",
+      "canvas": [
+        128,
+        160
+      ],
+      "feet_y": 147,
+      "body_unchanged": true,
+      "neutral_face_unchanged": true
+    },
+    {
+      "hair": "he",
+      "outfit": "tshirt-jeans",
+      "file": "frames/he-tshirt-jeans.png",
+      "sha256": "aa01607277081d4090fbd660abc2df484648091b355d2f7d9a980b0c962d7160",
+      "canvas": [
+        128,
+        160
+      ],
+      "feet_y": 147,
+      "body_unchanged": true,
+      "neutral_face_unchanged": true
+    },
+    {
+      "hair": "he",
+      "outfit": "cardigan-straight",
+      "file": "frames/he-cardigan-straight.png",
+      "sha256": "4b4d1c51574821996759ec42909928fcf5d22f593621faed009515d45bd45e42",
+      "canvas": [
+        128,
+        160
+      ],
+      "feet_y": 147,
+      "body_unchanged": true,
+      "neutral_face_unchanged": true
+    },
+    {
+      "hair": "he",
+      "outfit": "jacket-shorts",
+      "file": "frames/he-jacket-shorts.png",
+      "sha256": "743f358ec3159f8e085a635d4b8c06910f68b74c2394e93aa9d804e46f52b9e3",
+      "canvas": [
+        128,
+        160
+      ],
+      "feet_y": 147,
+      "body_unchanged": true,
+      "neutral_face_unchanged": true
+    }
+  ]
+}

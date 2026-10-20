@@ -1,0 +1,31 @@
+{
+  "frame_count": 4,
+  "frame_size": [
+    128,
+    160
+  ],
+  "anchor": [
+    64,
+    148
+  ],
+  "gif_durations_ms": [
+    1600,
+    350,
+    140,
+    450
+  ],
+  "gif_loop_ms": 2540,
+  "unique_frames": 4,
+  "binary_alpha": true,
+  "visible_palette_colors": [
+    29,
+    30,
+    30,
+    29
+  ],
+  "status": "prototype-needs-visual-review",
+  "limitations": [
+    "generated shapes may shimmer; not approved runtime art",
+    "idle frames are full-character composites; not yet modular per-frame paper doll layers"
+  ]
+}

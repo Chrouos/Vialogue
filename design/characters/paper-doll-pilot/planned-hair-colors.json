@@ -1,0 +1,34 @@
+{
+  "status": "approved",
+  "date": "2026-10-19",
+  "colors": [
+    {
+      "id": "black",
+      "name": "黑色"
+    },
+    {
+      "id": "gray",
+      "name": "灰色"
+    },
+    {
+      "id": "coffee",
+      "name": "咖啡色"
+    },
+    {
+      "id": "golden",
+      "name": "金黃色"
+    },
+    {
+      "id": "rose-red",
+      "name": "玫瑰粉",
+      "direction": "偏紅的玫瑰粉"
+    }
+  ],
+  "exact_palettes_approved": true,
+  "all_hairstyle_color_variants_complete": true,
+  "current_refinement_preview": "hair-colors-v1; five styles, five colors; neutral static only",
+  "constraints": [
+    "Preserve highlights and shadow structure per hair style",
+    "Do not recolor skin, eyes or clothing"
+  ]
+}

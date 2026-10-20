@@ -1,0 +1,169 @@
+{
+  "schema": "generate2dsprite.master.v1",
+  "tool": {
+    "name": "master_still",
+    "version": "0.4.0"
+  },
+  "created": "2026-10-16T02:50:29.641Z",
+  "name": "vialogue-traveler-a",
+  "subject": "a quiet coastal letter-writer, full body",
+  "identity_recap": "quiet slender chestnut-haired coastal letter-writer in an off-white shirt, moss-green vest, grey-brown trousers and plain brown shoes",
+  "facing": "right",
+  "view": "slightly elevated three-quarter front game view",
+  "finish": "pixel",
+  "class": "hero",
+  "framing": {
+    "canvas": [
+      1024,
+      1024
+    ],
+    "subject_height_px": 788,
+    "top_margin_px": 138,
+    "lead_px": 0,
+    "preset": "hero",
+    "subject_bbox": [
+      370,
+      138,
+      654,
+      926
+    ],
+    "anchor": [
+      432.5,
+      926.0
+    ],
+    "opaque_area_px": 139746,
+    "width_limited": false
+  },
+  "key": "#FF00FF",
+  "files": {
+    "master": {
+      "path": "master.png",
+      "sha256": "751dd7c8df0c61d6e59f8f10b58077573949e7fa332382339a5f03b2c0130fc9",
+      "bytes": 252635,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "cutout": {
+      "path": "master_rgba.png",
+      "sha256": "0d9e0b9637409fcaa0eb374070a490bc4396ad4c6501dab9d0fb3aca34cc38a9",
+      "bytes": 298320,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "source": {
+      "path": "source.png",
+      "sha256": "2553a936e4db7a87d78c418798587fbeb4330a3c17e31c129e7c15949fe78e07",
+      "bytes": 1344664,
+      "size": [
+        1254,
+        1254
+      ]
+    },
+    "spec": {
+      "path": "spec.json",
+      "sha256": "13cae29cb7ee3955f3886904d9ecbd1777908dfb89726849a43db8059a2c8841",
+      "bytes": 1807
+    },
+    "prompt": {
+      "path": "prompt.txt",
+      "sha256": "39fa16a33dfbd147ed041fdaef2336a2bea12590393a1eafcaf26f0f888db1cf",
+      "bytes": 2287
+    }
+  },
+  "references": [
+    {
+      "role": "identity",
+      "path": "../../retro-travelers-v1.png",
+      "sha256": "bad2b3f37cb9296181edf6af04b3d9a6441b4f7afe1e4141d3cbb3e7f43b8216",
+      "bytes": 1588952,
+      "what": "the approved three-character art study; use only traveler A, the left column"
+    }
+  ],
+  "transform": {
+    "mapping": "master = scale * source + offset (continuous pixel coordinates: pixel i spans [i, i + 1))",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "source_subject_bbox": [
+      425,
+      96,
+      802,
+      1145
+    ],
+    "crop_box": [
+      419,
+      90,
+      808,
+      1151
+    ],
+    "crop_margin_px": 6,
+    "scale": 0.7511916110581506,
+    "offset": [
+      51.14394661582463,
+      65.88560533841755
+    ],
+    "canvas": [
+      1024,
+      1024
+    ],
+    "resampler": "lanczos",
+    "premultiplied": true,
+    "alpha_floor_px": 2561,
+    "subject_parts": 1,
+    "ignored_parts": 1,
+    "ignored_px": 2,
+    "source_touches": [],
+    "key_rgb": [
+      255,
+      0,
+      255
+    ]
+  },
+  "route": "host-image_gen",
+  "provenance": {
+    "command": "prompt",
+    "run": "../master-prompt",
+    "take": null,
+    "source_name": "master-source.png",
+    "source_sha256": "2553a936e4db7a87d78c418798587fbeb4330a3c17e31c129e7c15949fe78e07",
+    "media": null,
+    "media_cli_source": null,
+    "edit": null
+  },
+  "matte": {
+    "requested": "soft",
+    "key_estimate": {
+      "key": [
+        252.0,
+        3.0,
+        251.0
+      ],
+      "source": "border_median",
+      "valid": true,
+      "ring_share": 1.0,
+      "coverage": 0.840891285048928,
+      "distance_from_declared": 5.83
+    },
+    "quality": "soft",
+    "interior_despill": true,
+    "qa": {
+      "opaque_key_px": 0,
+      "outer_ring_spill_fraction": 0.0,
+      "semitransparent_fraction": 0.023786903974505443,
+      "enclosed_key_pockets": 0,
+      "key_hued_px": 0,
+      "visible_px": 249465
+    },
+    "key_choice": {
+      "status": "ok",
+      "overlap_share": 0.0,
+      "rule": "reject a key when more than 0.5% of subject pixels have key dominance >= 40; first acceptable candidate wins"
+    }
+  },
+  "warnings": []
+}

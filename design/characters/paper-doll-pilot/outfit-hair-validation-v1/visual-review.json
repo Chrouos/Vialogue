@@ -1,0 +1,13 @@
+{
+  "reviewed_by": "assistant",
+  "date": "2026-10-19",
+  "status": "static-visual-review-complete",
+  "artifacts": ["combinations-review.png", "neck-collar-review.png", "native-size.png"],
+  "observations": [
+    "No obvious neck gaps or displaced collars observed in the overview and enlarged neck review.",
+    "Low bun and swept-back hair remain visually distinct with each outfit.",
+    "No old vest pixels are copied at or below the clothing boundary.",
+    "Neutral expression and approved clothing were retained."
+  ],
+  "limits": ["Static three-quarter-right pose only; animation, other expressions and other directions are not verified."]
+}

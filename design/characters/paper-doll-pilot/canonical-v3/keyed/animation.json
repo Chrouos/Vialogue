@@ -1,0 +1,370 @@
+{
+  "schema": "generate2dsprite.full_frames.v2",
+  "frame_size": [
+    1254,
+    1254
+  ],
+  "source_frame_count": 2,
+  "sources": [
+    {
+      "path": "../../master-source.png",
+      "file_sha256": "2553a936e4db7a87d78c418798587fbeb4330a3c17e31c129e7c15949fe78e07",
+      "bytes": 1344664,
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "source_mode": "RGB",
+      "bit_depth": 8,
+      "conversion": "RGB -> RGBA",
+      "key": {
+        "quality": "hard",
+        "requested_quality": "auto",
+        "key_rgb": [
+          252,
+          3,
+          251
+        ],
+        "key_estimate": {
+          "declared": "magenta",
+          "declared_rgb": [
+            255,
+            0,
+            255
+          ],
+          "ring_px": 39872,
+          "native_alpha": false,
+          "use_native_alpha": false,
+          "near_share": 1.0,
+          "key": [
+            252.0,
+            3.0,
+            251.0
+          ],
+          "source": "border_median",
+          "valid": true,
+          "reason": null,
+          "ring_share": 1.0,
+          "coverage": 0.840891285048928,
+          "distance_from_declared": 5.83
+        },
+        "qa": {
+          "opaque_key_px": 0,
+          "outer_ring_spill_fraction": 0.7957012592270951,
+          "semitransparent_fraction": 0.0,
+          "enclosed_key_pockets": 0,
+          "key_hued_px": 1178,
+          "visible_px": 248194,
+          "outer_ring_px": 4606,
+          "thresholds": {
+            "key_tolerance": 48.0,
+            "spill_threshold": 20.0,
+            "min_pocket_area": 16,
+            "opaque_alpha": 128,
+            "spill_hue_balance": 0.5
+          },
+          "method": "forge_matte.matte_qa v1: straight-colour key distance and dominance on the keyed image; two-channel keys count spill only where the key channels are balanced"
+        }
+      }
+    },
+    {
+      "path": "../navy-source.png",
+      "file_sha256": "f126a3aefbb62b2db9422dbc2ce61c709490dd6d4926dd7b7b8526590e22c2ee",
+      "bytes": 1353257,
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "source_mode": "RGB",
+      "bit_depth": 8,
+      "conversion": "RGB -> RGBA",
+      "key": {
+        "quality": "hard",
+        "requested_quality": "auto",
+        "key_rgb": [
+          250,
+          3,
+          251
+        ],
+        "key_estimate": {
+          "declared": "magenta",
+          "declared_rgb": [
+            255,
+            0,
+            255
+          ],
+          "ring_px": 39872,
+          "native_alpha": false,
+          "use_native_alpha": false,
+          "near_share": 1.0,
+          "key": [
+            250.0,
+            3.0,
+            251.0
+          ],
+          "source": "border_median",
+          "valid": true,
+          "reason": null,
+          "ring_share": 1.0,
+          "coverage": 0.8408982802082777,
+          "distance_from_declared": 7.07
+        },
+        "qa": {
+          "opaque_key_px": 0,
+          "outer_ring_spill_fraction": 0.7927042376583661,
+          "semitransparent_fraction": 0.0,
+          "enclosed_key_pockets": 0,
+          "key_hued_px": 1256,
+          "visible_px": 248193,
+          "outer_ring_px": 4578,
+          "thresholds": {
+            "key_tolerance": 48.0,
+            "spill_threshold": 20.0,
+            "min_pocket_area": 16,
+            "opaque_alpha": 128,
+            "spill_hue_balance": 0.5
+          },
+          "method": "forge_matte.matte_qa v1: straight-colour key distance and dominance on the keyed image; two-channel keys count spill only where the key channels are balanced"
+        }
+      }
+    }
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "file": "frames/frame-00.png",
+      "source_index": 0,
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "file_sha256": "4ec5544ba879e0eb481055081ad32b6b7e66fd11f7e9ccb3d68989044b48e74d",
+      "rgba_pixel_sha256": "eb0c2b91d8a85571fad61a1ec5d5322dc21dee9c1d01673f47f43d5cdb4a1965"
+    },
+    {
+      "index": 1,
+      "file": "frames/frame-01.png",
+      "source_index": 1,
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "file_sha256": "1663dad326ecc0a3f3df01740fdaceedccda8f4bb6d1d742ef1ccc0b06270f93",
+      "rgba_pixel_sha256": "78186a687c8aa647eabadd3ce4bbe9e822f2467f0733fe0ab549b8dd9e7cbcb5"
+    }
+  ],
+  "sequence": [
+    0,
+    1
+  ],
+  "duration_ms": 250,
+  "total_duration_ms": 500,
+  "loop": 0,
+  "atlas": {
+    "file": "atlas.png",
+    "size": [
+      2508,
+      1254
+    ],
+    "rows": 1,
+    "cols": 2,
+    "file_sha256": "3de6302ecfac3031af0df9788c14d25e23ebcb2e58b6d27bacb8984a5d7bdfdd",
+    "rgba_pixels_exact": true
+  },
+  "webp": {
+    "decoded_frame_count": 2,
+    "decoded_frames": [
+      {
+        "index": 0,
+        "timestamp_ms": 0,
+        "duration_ms": 250,
+        "sequence_positions": [
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "timestamp_ms": 250,
+        "duration_ms": 250,
+        "sequence_positions": [
+          1
+        ]
+      }
+    ],
+    "total_duration_ms": 500,
+    "loop": 0,
+    "alpha_and_visible_rgb_exact": true,
+    "timeline_verified": true,
+    "hidden_rgb_guaranteed": false,
+    "file": "animation.webp",
+    "file_sha256": "f2a09efbd7faad8510d1a147b34094e8c00b984e8b147c351dda495cfdbe9d1a",
+    "bytes": 579632,
+    "lossless": true,
+    "quality": 75,
+    "method": 3,
+    "timed_static_container": false,
+    "all_keyframes": false
+  },
+  "transitions": [
+    {
+      "from_sequence_position": 0,
+      "to_sequence_position": 1,
+      "from_frame": 0,
+      "to_frame": 1,
+      "wrap": false,
+      "premultiplied_rgb_mae": 1.682,
+      "alpha_mae": 0.165566,
+      "changed_visible_pixels": 248206
+    },
+    {
+      "from_sequence_position": 1,
+      "to_sequence_position": 0,
+      "from_frame": 1,
+      "to_frame": 0,
+      "wrap": true,
+      "premultiplied_rgb_mae": 1.682,
+      "alpha_mae": 0.165566,
+      "changed_visible_pixels": 248206
+    }
+  ],
+  "loop_seam": {
+    "frames": 2,
+    "seam": 1.302892,
+    "adjacent_median": 1.302892,
+    "adjacent_p95": 1.302892,
+    "adjacent_max": 1.302892,
+    "seam_over_median": 1.0,
+    "seam_over_p95": 1.0,
+    "method": "premultiplied RGBA mean absolute difference (0-255); seam = last -> first",
+    "adjacent_mean": 1.302892,
+    "wrap_ratio": 1.0
+  },
+  "loop_overlap": null,
+  "static_regions": {},
+  "key": {
+    "mode": "chroma",
+    "key_color": "magenta",
+    "requested_quality": "auto",
+    "pixel_art": true,
+    "per_source": "sources[].key"
+  },
+  "slicing": {
+    "source": "inputs",
+    "mode": "inputs"
+  },
+  "spill_check": null,
+  "provenance": {
+    "user_manifest": null,
+    "user_assertions_verified": false
+  },
+  "validation": {
+    "png_rgba_exact": true,
+    "atlas_rgba_exact": true,
+    "webp_timeline_verified": true,
+    "visual_approval": false,
+    "note": "Numerical diagnostics only; no claim of seamless motion or visual continuity."
+  },
+  "processing": {
+    "resized": false,
+    "aligned": false,
+    "chroma_keyed": true,
+    "masked": false,
+    "blended": false
+  },
+  "qa": {
+    "status": "needs-visual-review",
+    "method": "Lossless packaging: frame PNGs and the atlas are decoded and compared pixel for pixel; the WebP timeline and its visible RGBA are decoded and verified. Spill: 8-connected components of alpha above the threshold that leave their owner cell. Seams: forge_core.seam_report of the played sequence (premultiplied RGBA MAE); wrap_ratio = seam / mean adjacent step. Drift: NCC of premultiplied luma.",
+    "notProven": [
+      "visual quality, identity or anatomy of any frame",
+      "smooth motion or a seamless loop (seam ratios are numeric diagnostics only)",
+      "that the crop boxes, grid or sequence match the intended phases",
+      "that RGB hidden under alpha 0 survives the WebP preview"
+    ],
+    "checks": [
+      {
+        "id": "png_rgba_exact",
+        "status": "pass",
+        "value": true,
+        "threshold": null
+      },
+      {
+        "id": "atlas_rgba_exact",
+        "status": "pass",
+        "value": true,
+        "threshold": null
+      },
+      {
+        "id": "webp_timeline",
+        "status": "pass",
+        "value": 500,
+        "threshold": null
+      },
+      {
+        "id": "cross_cell_spill",
+        "status": "skipped",
+        "value": null,
+        "threshold": null
+      },
+      {
+        "id": "chroma_key_residue",
+        "status": "pass",
+        "value": 0,
+        "threshold": 0
+      },
+      {
+        "id": "chroma_key_backdrop",
+        "status": "pass",
+        "value": 0,
+        "threshold": 0
+      },
+      {
+        "id": "loop_seam",
+        "status": "needs-visual-review",
+        "value": 1.0,
+        "threshold": null
+      }
+    ],
+    "inputs": [
+      {
+        "path": "../../master-source.png",
+        "sha256": "2553a936e4db7a87d78c418798587fbeb4330a3c17e31c129e7c15949fe78e07",
+        "bytes": 1344664
+      },
+      {
+        "path": "../navy-source.png",
+        "sha256": "f126a3aefbb62b2db9422dbc2ce61c709490dd6d4926dd7b7b8526590e22c2ee",
+        "bytes": 1353257
+      }
+    ],
+    "outputs": [
+      {
+        "path": "frames/frame-00.png",
+        "sha256": "4ec5544ba879e0eb481055081ad32b6b7e66fd11f7e9ccb3d68989044b48e74d",
+        "bytes": 450094
+      },
+      {
+        "path": "frames/frame-01.png",
+        "sha256": "1663dad326ecc0a3f3df01740fdaceedccda8f4bb6d1d742ef1ccc0b06270f93",
+        "bytes": 462154
+      },
+      {
+        "path": "atlas.png",
+        "sha256": "3de6302ecfac3031af0df9788c14d25e23ebcb2e58b6d27bacb8984a5d7bdfdd",
+        "bytes": 905789
+      },
+      {
+        "path": "animation.webp",
+        "sha256": "f2a09efbd7faad8510d1a147b34094e8c00b984e8b147c351dda495cfdbe9d1a",
+        "bytes": 579632
+      }
+    ],
+    "tool": {
+      "name": "assemble_frames",
+      "version": "0.4.0"
+    }
+  }
+}

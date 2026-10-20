@@ -1,0 +1,69 @@
+{
+  "art_source": "existing",
+  "operation": "approved hair delta compositing; no image generation",
+  "status": "structural-checks-pass; visual-review-in-visual-review.json",
+  "images": 15,
+  "hairstyles": 5,
+  "outfits": 3,
+  "canvas": [
+    128,
+    160
+  ],
+  "all15_unique": true,
+  "body_rows_65_onward_byte_identical_to_each_outfit": true,
+  "same_head_for_each_hair_across_outfits": true,
+  "adopted_neutral_face_preserved": true,
+  "short_side_part_matches_approved_outfits_byte_exact": true,
+  "all_feet_y": 147,
+  "binary_alpha": true,
+  "head_and_torso_connected_in_all15": true,
+  "source_files_unchanged": true,
+  "hair_masks": [
+    {
+      "id": "ha",
+      "applied_hair_pixels": 466,
+      "excluded_neck_collar_differences": 11,
+      "protected_face_differences": 14
+    },
+    {
+      "id": "hb",
+      "applied_hair_pixels": 0,
+      "excluded_neck_collar_differences": 0,
+      "protected_face_differences": 0
+    },
+    {
+      "id": "hc",
+      "applied_hair_pixels": 484,
+      "excluded_neck_collar_differences": 20,
+      "protected_face_differences": 17
+    },
+    {
+      "id": "hd",
+      "applied_hair_pixels": 498,
+      "excluded_neck_collar_differences": 25,
+      "protected_face_differences": 20
+    },
+    {
+      "id": "he",
+      "applied_hair_pixels": 514,
+      "excluded_neck_collar_differences": 28,
+      "protected_face_differences": 21
+    }
+  ],
+  "inputs": {
+    "combinations\\ha-fa-oa.png": "e0928e4a51b33c308f648303c2ca7e768405fb2361b4c30d4163f2cba1c7637b",
+    "combinations\\hb-fa-oa.png": "42635c5c3972b7dac589a12228ec4d80ba85f35de67e7a60dd4f63cc92bfdf5a",
+    "combinations\\hc-fa-oa.png": "539fd8e6c3aeca9e42963c71dab167b398fcec28f8c07bf33b1b6f978a759155",
+    "combinations\\hd-fa-oa.png": "2239f2268149bb9f88245df2337c35a48394abc8d017e7bb3370dc778beaf1e7",
+    "combinations\\he-fa-oa.png": "ec36535c8279c573461ef6bc1526b6d33115b463a748821b5e60cab571bcaf8c",
+    "modern-outfits-v2\\frames\\tshirt-jeans.png": "9eddf28fdd7d9c5d0bfe5b538238d4fed975f98887d553aa91aadb4aabb46584",
+    "modern-outfits-v2\\frames\\cardigan-straight.png": "3b21a46a09ddf15d7af9ae475c8ea9dcb81e510da542736bf9db8207c4ea683c",
+    "modern-outfits-v2\\frames\\jacket-shorts.png": "325867fa6335accb6b74ec81def4d698a9899b1576ebd628936fd884c017e1c3"
+  },
+  "limits": [
+    "neutral front-three-quarter standing pose only",
+    "not 8 expressions x 5 hairs x 3 outfits",
+    "not universal separated hair/face/clothes layers",
+    "no sitting walking or animation validation"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "browser": "isolated headless Chrome",
+  "offline_file_preview": true,
+  "dropdown_combinations": 75,
+  "independent_style_color_selections": 25,
+  "mobile_horizontal_overflow": false
+}

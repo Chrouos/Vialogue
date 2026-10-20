@@ -1,0 +1,371 @@
+{
+  "schema": "vialogue.paper-doll.v1",
+  "name": "Vialogue traveler",
+  "canvas": {
+    "width": 128,
+    "height": 160,
+    "anchor": [
+      64,
+      148
+    ]
+  },
+  "pose": "stand-se",
+  "sampling": "nearest",
+  "scope_note": "目前頭部含髮型與一般表情；衣服含身體、褲子與鞋。更細的獨立圖層之後再補素材。",
+  "slots": [
+    {
+      "id": "hair_back",
+      "label": "後髮",
+      "z": 10,
+      "required": false,
+      "default": null,
+      "variants": []
+    },
+    {
+      "id": "outfit",
+      "label": "穿搭",
+      "z": 20,
+      "required": true,
+      "default": "tshirt-jeans",
+      "asset_scope": "body + clothes + limbs + shoes",
+      "variants": [
+        {
+          "id": "tshirt-jeans",
+          "label": "T-shirt＋牛仔褲",
+          "file": "layers/outfit/tshirt-jeans.png"
+        },
+        {
+          "id": "cardigan-straight",
+          "label": "針織外套＋直筒褲",
+          "file": "layers/outfit/cardigan-straight.png"
+        },
+        {
+          "id": "jacket-shorts",
+          "label": "輕薄短外套＋短褲",
+          "file": "layers/outfit/jacket-shorts.png"
+        }
+      ]
+    },
+    {
+      "id": "head",
+      "label": "頭部／髮型",
+      "z": 40,
+      "required": true,
+      "default": "hb",
+      "asset_scope": "hair + partial face, neutral only",
+      "variants": [
+        {
+          "id": "ha",
+          "label": "原始髮型／咖啡色",
+          "file": "layers/head/ha.png",
+          "selection": {
+            "hairstyle": "ha",
+            "color": "coffee"
+          }
+        },
+        {
+          "id": "ha-black",
+          "label": "原始髮型／黑色",
+          "file": "layers/head/ha-black.png",
+          "selection": {
+            "hairstyle": "ha",
+            "color": "black"
+          }
+        },
+        {
+          "id": "ha-gray",
+          "label": "原始髮型／灰色",
+          "file": "layers/head/ha-gray.png",
+          "selection": {
+            "hairstyle": "ha",
+            "color": "gray"
+          }
+        },
+        {
+          "id": "ha-golden",
+          "label": "原始髮型／金黃色",
+          "file": "layers/head/ha-golden.png",
+          "selection": {
+            "hairstyle": "ha",
+            "color": "golden"
+          }
+        },
+        {
+          "id": "ha-rose-red",
+          "label": "原始髮型／玫瑰粉（偏紅）",
+          "file": "layers/head/ha-rose-red.png",
+          "selection": {
+            "hairstyle": "ha",
+            "color": "rose-red"
+          }
+        },
+        {
+          "id": "hb",
+          "label": "短偏分／咖啡色",
+          "file": "layers/head/hb.png",
+          "selection": {
+            "hairstyle": "hb",
+            "color": "coffee"
+          }
+        },
+        {
+          "id": "hb-black",
+          "label": "短偏分／黑色",
+          "file": "layers/head/hb-black.png",
+          "selection": {
+            "hairstyle": "hb",
+            "color": "black"
+          }
+        },
+        {
+          "id": "hb-gray",
+          "label": "短偏分／灰色",
+          "file": "layers/head/hb-gray.png",
+          "selection": {
+            "hairstyle": "hb",
+            "color": "gray"
+          }
+        },
+        {
+          "id": "hb-golden",
+          "label": "短偏分／金黃色",
+          "file": "layers/head/hb-golden.png",
+          "selection": {
+            "hairstyle": "hb",
+            "color": "golden"
+          }
+        },
+        {
+          "id": "hb-rose-red",
+          "label": "短偏分／玫瑰粉（偏紅）",
+          "file": "layers/head/hb-rose-red.png",
+          "selection": {
+            "hairstyle": "hb",
+            "color": "rose-red"
+          }
+        },
+        {
+          "id": "hc",
+          "label": "俐落後梳／咖啡色",
+          "file": "layers/head/hc.png",
+          "selection": {
+            "hairstyle": "hc",
+            "color": "coffee"
+          }
+        },
+        {
+          "id": "hc-black",
+          "label": "俐落後梳／黑色",
+          "file": "layers/head/hc-black.png",
+          "selection": {
+            "hairstyle": "hc",
+            "color": "black"
+          }
+        },
+        {
+          "id": "hc-gray",
+          "label": "俐落後梳／灰色",
+          "file": "layers/head/hc-gray.png",
+          "selection": {
+            "hairstyle": "hc",
+            "color": "gray"
+          }
+        },
+        {
+          "id": "hc-golden",
+          "label": "俐落後梳／金黃色",
+          "file": "layers/head/hc-golden.png",
+          "selection": {
+            "hairstyle": "hc",
+            "color": "golden"
+          }
+        },
+        {
+          "id": "hc-rose-red",
+          "label": "俐落後梳／玫瑰粉（偏紅）",
+          "file": "layers/head/hc-rose-red.png",
+          "selection": {
+            "hairstyle": "hc",
+            "color": "rose-red"
+          }
+        },
+        {
+          "id": "hd",
+          "label": "蓬鬆微捲／咖啡色",
+          "file": "layers/head/hd.png",
+          "selection": {
+            "hairstyle": "hd",
+            "color": "coffee"
+          }
+        },
+        {
+          "id": "hd-black",
+          "label": "蓬鬆微捲／黑色",
+          "file": "layers/head/hd-black.png",
+          "selection": {
+            "hairstyle": "hd",
+            "color": "black"
+          }
+        },
+        {
+          "id": "hd-gray",
+          "label": "蓬鬆微捲／灰色",
+          "file": "layers/head/hd-gray.png",
+          "selection": {
+            "hairstyle": "hd",
+            "color": "gray"
+          }
+        },
+        {
+          "id": "hd-golden",
+          "label": "蓬鬆微捲／金黃色",
+          "file": "layers/head/hd-golden.png",
+          "selection": {
+            "hairstyle": "hd",
+            "color": "golden"
+          }
+        },
+        {
+          "id": "hd-rose-red",
+          "label": "蓬鬆微捲／玫瑰粉（偏紅）",
+          "file": "layers/head/hd-rose-red.png",
+          "selection": {
+            "hairstyle": "hd",
+            "color": "rose-red"
+          }
+        },
+        {
+          "id": "he",
+          "label": "低束小髮髻／咖啡色",
+          "file": "layers/head/he.png",
+          "selection": {
+            "hairstyle": "he",
+            "color": "coffee"
+          }
+        },
+        {
+          "id": "he-black",
+          "label": "低束小髮髻／黑色",
+          "file": "layers/head/he-black.png",
+          "selection": {
+            "hairstyle": "he",
+            "color": "black"
+          }
+        },
+        {
+          "id": "he-gray",
+          "label": "低束小髮髻／灰色",
+          "file": "layers/head/he-gray.png",
+          "selection": {
+            "hairstyle": "he",
+            "color": "gray"
+          }
+        },
+        {
+          "id": "he-golden",
+          "label": "低束小髮髻／金黃色",
+          "file": "layers/head/he-golden.png",
+          "selection": {
+            "hairstyle": "he",
+            "color": "golden"
+          }
+        },
+        {
+          "id": "he-rose-red",
+          "label": "低束小髮髻／玫瑰粉（偏紅）",
+          "file": "layers/head/he-rose-red.png",
+          "selection": {
+            "hairstyle": "he",
+            "color": "rose-red"
+          }
+        }
+      ],
+      "selectors": [
+        {
+          "key": "hairstyle",
+          "label": "髮型",
+          "options": [
+            {
+              "id": "ha",
+              "label": "原始髮型"
+            },
+            {
+              "id": "hb",
+              "label": "短偏分"
+            },
+            {
+              "id": "hc",
+              "label": "俐落後梳"
+            },
+            {
+              "id": "hd",
+              "label": "蓬鬆微捲"
+            },
+            {
+              "id": "he",
+              "label": "低束小髮髻"
+            }
+          ]
+        },
+        {
+          "key": "color",
+          "label": "髮色",
+          "options": [
+            {
+              "id": "coffee",
+              "label": "咖啡色"
+            },
+            {
+              "id": "black",
+              "label": "黑色"
+            },
+            {
+              "id": "gray",
+              "label": "灰色"
+            },
+            {
+              "id": "golden",
+              "label": "金黃色"
+            },
+            {
+              "id": "rose-red",
+              "label": "玫瑰粉（偏紅）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "face",
+      "label": "五官",
+      "z": 50,
+      "required": false,
+      "default": null,
+      "variants": []
+    },
+    {
+      "id": "hair_front",
+      "label": "前髮",
+      "z": 60,
+      "required": false,
+      "default": null,
+      "variants": []
+    },
+    {
+      "id": "accessory",
+      "label": "飾品",
+      "z": 70,
+      "required": false,
+      "default": null,
+      "variants": []
+    },
+    {
+      "id": "hat",
+      "label": "帽子",
+      "z": 80,
+      "required": false,
+      "default": null,
+      "variants": []
+    }
+  ]
+}

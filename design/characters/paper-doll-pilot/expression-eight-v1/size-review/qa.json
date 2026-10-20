@@ -1,0 +1,71 @@
+{
+  "art_source": "existing",
+  "generation_route": "host_image (approved expressions.png)",
+  "source_sha256": "2a1801abf6439439ef30e75964ac4f623657d0c0b5051ca6d3e51961e5b17835",
+  "source_unchanged": true,
+  "sizes": [
+    32,
+    48,
+    64
+  ],
+  "portraits": 24,
+  "source_crop_boxes": [
+    [
+      0,
+      132,
+      314,
+      446
+    ],
+    [
+      314,
+      132,
+      628,
+      446
+    ],
+    [
+      627,
+      132,
+      941,
+      446
+    ],
+    [
+      940,
+      132,
+      1254,
+      446
+    ],
+    [
+      0,
+      632,
+      314,
+      946
+    ],
+    [
+      314,
+      632,
+      628,
+      946
+    ],
+    [
+      627,
+      632,
+      941,
+      946
+    ],
+    [
+      940,
+      632,
+      1254,
+      946
+    ]
+  ],
+  "sampling": "BOX reduction, nearest enlargement",
+  "palette": "32 colors per icon, no dithering",
+  "status": "size feasibility review; not game face layers",
+  "limits": [
+    "32px loses subtle blush, tear and mouth detail",
+    "crops include existing opaque ivory background",
+    "no animations or paper-doll integration",
+    "no changes to approved full-body sprites"
+  ]
+}

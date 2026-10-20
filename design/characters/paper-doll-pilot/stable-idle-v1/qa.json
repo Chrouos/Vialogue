@@ -1,0 +1,62 @@
+{
+  "status": "needs-visual-review",
+  "method": "single-fixed-sprite + one-pixel upper-body translation + transferred existing blink patch",
+  "generated_pose_texture_used": false,
+  "pose_offsets": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      -1
+    ],
+    [
+      0,
+      -1
+    ],
+    [
+      0,
+      0
+    ]
+  ],
+  "fixed_boot_region": [
+    0,
+    128,
+    128,
+    160
+  ],
+  "texture_drift_after_pose_compensation": 0,
+  "hair_texture_identical_after_pose_compensation": true,
+  "blink_bounds": [
+    [
+      72,
+      55,
+      79,
+      60
+    ],
+    [
+      83,
+      54,
+      86,
+      58
+    ]
+  ],
+  "gif_frames": 4,
+  "durations_ms": [
+    1600,
+    450,
+    100,
+    650
+  ],
+  "canvas": [
+    128,
+    160
+  ],
+  "loop_last_frame_equals_first": true,
+  "limitations": [
+    "prototype one-pixel breathing; not physically articulated chest motion",
+    "blink uses a small patch from the accepted closed-eye frame",
+    "needs playback review for cadence and ankle join"
+  ]
+}

@@ -1,0 +1,19 @@
+.tmp/
+__pycache__/
+*.pyc
+
+# Local agent state and credentials
+.superpowers/
+.codex/
+.agents/
+.aws/
+.env
+.env.*
+!.env.example
+
+# Local caches and editor files
+node_modules/
+.npm-cache/
+.DS_Store
+Thumbs.db
+*.log

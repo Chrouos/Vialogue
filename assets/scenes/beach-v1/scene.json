@@ -1,0 +1,448 @@
+{
+  "version": 1,
+  "world": {
+    "width": 1280,
+    "height": 720
+  },
+  "map": "map-bundle.json",
+  "textures": {
+    "base": {
+      "file": "layers/base.png",
+      "anchor": [
+        0,
+        0
+      ],
+      "scale": 1,
+      "sha256": "21ee1b3b7d54d4f1ba375e470eaa727368c483889fbf4225ebe82bdc296b4d8c"
+    },
+    "sky": {
+      "file": "layers/sky.png",
+      "anchor": [
+        0,
+        0
+      ],
+      "scale": 1,
+      "sha256": "6db9f1ddffc427998d83c0fe9616a8e44bc97da2aa170ac9d753feaa86b1174a"
+    },
+    "ocean": {
+      "file": "layers/ocean.png",
+      "anchor": [
+        0,
+        0
+      ],
+      "scale": 1,
+      "sha256": "59c07fe94ab62c681b03e08045089a4fb4a9fd0a200547fe369d24a7a3cd045f"
+    },
+    "ground": {
+      "file": "layers/ground.png",
+      "anchor": [
+        0,
+        0
+      ],
+      "scale": 1,
+      "sha256": "71db1c41e306e52935c7379f08ebf6ef7f141b97bd29a17633b0b04bdd8c3e3b"
+    },
+    "wave": {
+      "file": "effects/wave.png",
+      "anchor": [
+        0,
+        0
+      ],
+      "scale": 1,
+      "sha256": "2f4067c9f8abc5efff4bbda94fda646f599d7e2f732105c30441cd9c91718065"
+    },
+    "happy": {
+      "file": "effects/happy.png",
+      "anchor": [
+        0,
+        0
+      ],
+      "scale": 1,
+      "sha256": "01c91a8d4b2fbefcffaf73c6b08bea5e50408bc1282bfc49e87a04dcf1d894fe"
+    },
+    "surprise": {
+      "file": "effects/surprise.png",
+      "anchor": [
+        0,
+        0
+      ],
+      "scale": 1,
+      "sha256": "9a783cd76324ad670b2137f064a535ebafe17e604dc508419ffe85f36eb63bbb"
+    },
+    "company": {
+      "file": "effects/company.png",
+      "anchor": [
+        0,
+        0
+      ],
+      "scale": 1,
+      "sha256": "139061f199ad4e83e84ada558265abd8ca7f2c971cbd3106f64558dde276064f"
+    },
+    "letter": {
+      "file": "effects/letter.png",
+      "anchor": [
+        0,
+        0
+      ],
+      "scale": 1,
+      "sha256": "7b72423de513bd1310b92cf4b225578120d86d24e4c760b5e32e76c2233a09f7"
+    },
+    "bottle": {
+      "file": "effects/bottle.png",
+      "anchor": [
+        0,
+        0
+      ],
+      "scale": 1,
+      "sha256": "bab38d45b204ac8940fa3c6b642930fa83fd975329bd9db5db36787ba1b53461"
+    },
+    "pencil": {
+      "file": "effects/pencil.png",
+      "anchor": [
+        0,
+        0
+      ],
+      "scale": 1,
+      "sha256": "cf79b264f183d5b0094eb0eec503987b6bf5e72f10ba7a2ad7f3ed83a2317315"
+    },
+    "journal": {
+      "file": "effects/journal.png",
+      "anchor": [
+        0,
+        0
+      ],
+      "scale": 1,
+      "sha256": "0701f6ca38df50a8de9732e690c310aad11b56012e0ab62e5031b667b58f3a1f"
+    },
+    "cloud-a": {
+      "file": "effects/cloud-a.png",
+      "anchor": [
+        0,
+        0
+      ],
+      "scale": 1,
+      "sha256": "fb0c4331b03d02d23a35f1891d26b123080e425ca1a05683f49f62b811cfb3ec"
+    },
+    "cloud-b": {
+      "file": "effects/cloud-b.png",
+      "anchor": [
+        0,
+        0
+      ],
+      "scale": 1,
+      "sha256": "a678fff7d4583fdec4e6186245e1610af3f1baba4cd5c00cb5b8b6bad287e025"
+    },
+    "moon": {
+      "file": "effects/moon.png",
+      "anchor": [
+        0,
+        0
+      ],
+      "scale": 1,
+      "sha256": "1387b23b1a17ba4dcf3c84de0eb2dce38184e65caee6401c7d8d95afb6ce8a43"
+    },
+    "sun": {
+      "file": "effects/sun.png",
+      "anchor": [
+        0,
+        0
+      ],
+      "scale": 1,
+      "sha256": "a2975182bf795aba70a6aa824b470984cd64dc00e16be25ebc7b97e4cca30637"
+    },
+    "gull-up": {
+      "file": "effects/gull-up.png",
+      "anchor": [
+        0,
+        0
+      ],
+      "scale": 1,
+      "sha256": "04ed7ae0eb571ce0b8aa4149b468e9c2499a4b03ba2faaa4aee6ecfc13af689d"
+    },
+    "gull-flat": {
+      "file": "effects/gull-flat.png",
+      "anchor": [
+        0,
+        0
+      ],
+      "scale": 1,
+      "sha256": "794ae42f95b0c0073998c2b4fc91a0a73a0ab077fa82f7f737a0f1368e7f8717"
+    },
+    "gull-down": {
+      "file": "effects/gull-down.png",
+      "anchor": [
+        0,
+        0
+      ],
+      "scale": 1,
+      "sha256": "acf00aa02e7cec4fe18719dd2d78ceb315066018944dd1bff84b162038d7a9c1"
+    },
+    "lantern": {
+      "file": "effects/lantern.png",
+      "anchor": [
+        0,
+        0
+      ],
+      "scale": 1,
+      "sha256": "b49560a68d0151b2d675ccb53906eefdaae2f1d0dc16be5fbcb2446eac0cd02d"
+    },
+    "hb": {
+      "file": "../../characters/traveler/layers/head/hb.png",
+      "anchor": [
+        64,
+        148
+      ],
+      "scale": 1,
+      "sha256": "c126def153acc633271f661615b8db462e4af985c3426507cf475ff3493e3385"
+    },
+    "hb-gray": {
+      "file": "../../characters/traveler/layers/head/hb-gray.png",
+      "anchor": [
+        64,
+        148
+      ],
+      "scale": 1,
+      "sha256": "8d34b8e159121c5e4ad46b86294f870190f6b596344e542a31cd93a8289d0d0f"
+    },
+    "hb-golden": {
+      "file": "../../characters/traveler/layers/head/hb-golden.png",
+      "anchor": [
+        64,
+        148
+      ],
+      "scale": 1,
+      "sha256": "e733009e87ea40522fd2e184f23fc7d42f5b557830428b43fcce8d5eade8ca4c"
+    },
+    "hb-rose-red": {
+      "file": "../../characters/traveler/layers/head/hb-rose-red.png",
+      "anchor": [
+        64,
+        148
+      ],
+      "scale": 1,
+      "sha256": "3ec929862097b4a5db27c22730b527af3f399903ffc20ae4f3bba1cfc4ce461a"
+    },
+    "he-black": {
+      "file": "../../characters/traveler/layers/head/he-black.png",
+      "anchor": [
+        64,
+        148
+      ],
+      "scale": 1,
+      "sha256": "f18054f635fea467a70947a295b6eb1ce5d99c7fde7f8360123df7e837a80b47"
+    },
+    "tshirt-jeans": {
+      "file": "../../characters/traveler/layers/outfit/tshirt-jeans.png",
+      "anchor": [
+        64,
+        148
+      ],
+      "scale": 1,
+      "sha256": "78f0d6af5b3bb7012d88308f0fa073b5c3f9833c035de4d209888b6b76c7961e"
+    },
+    "cardigan-straight": {
+      "file": "../../characters/traveler/layers/outfit/cardigan-straight.png",
+      "anchor": [
+        64,
+        148
+      ],
+      "scale": 1,
+      "sha256": "a00a3689b471c2508dbc52aeb2342781decd1af8d7a4b4c66219fada0fe26092"
+    },
+    "idle-0": {
+      "file": "../../../design/characters/paper-doll-pilot/sitting-idle-v1/frames/frame-00.png",
+      "anchor": [
+        64,
+        148
+      ],
+      "scale": 1,
+      "sha256": "6dc3d3196cebef7fdcecdb9bdaf43752cc66339fc43a28e0a862eb4b0488a3b4"
+    },
+    "idle-1": {
+      "file": "../../../design/characters/paper-doll-pilot/sitting-idle-v1/frames/frame-01.png",
+      "anchor": [
+        64,
+        148
+      ],
+      "scale": 1,
+      "sha256": "e0ec64a9f57977313fbb4252329e0e78c2ce1d792cd69b7cbca5ea5f838749b8"
+    },
+    "idle-2": {
+      "file": "../../../design/characters/paper-doll-pilot/sitting-idle-v1/frames/frame-02.png",
+      "anchor": [
+        64,
+        148
+      ],
+      "scale": 1,
+      "sha256": "8537a6e72db08fc0e47128d221419494462d5611e21471a34ec35a6a9dcc2ce6"
+    },
+    "idle-3": {
+      "file": "../../../design/characters/paper-doll-pilot/sitting-idle-v1/frames/frame-03.png",
+      "anchor": [
+        64,
+        148
+      ],
+      "scale": 1,
+      "sha256": "e0ec64a9f57977313fbb4252329e0e78c2ce1d792cd69b7cbca5ea5f838749b8"
+    },
+    "idle-4": {
+      "file": "../../../design/characters/paper-doll-pilot/sitting-idle-v1/frames/frame-04.png",
+      "anchor": [
+        64,
+        148
+      ],
+      "scale": 1,
+      "sha256": "6dc3d3196cebef7fdcecdb9bdaf43752cc66339fc43a28e0a862eb4b0488a3b4"
+    },
+    "sky-mask": {
+      "file": "layers/sky-mask.png",
+      "anchor": [
+        0,
+        0
+      ],
+      "scale": 1,
+      "sha256": "bf3d3c93e9bb590e2ac1b8257fe759bf2d22f078d7058623dfa5389e6290b190"
+    }
+  },
+  "config": {
+    "shore": [
+      [
+        0,
+        288
+      ],
+      [
+        100,
+        325
+      ],
+      [
+        250,
+        365
+      ],
+      [
+        400,
+        400
+      ],
+      [
+        550,
+        431
+      ],
+      [
+        700,
+        462
+      ],
+      [
+        850,
+        485
+      ],
+      [
+        1000,
+        510
+      ],
+      [
+        1150,
+        531
+      ],
+      [
+        1280,
+        545
+      ]
+    ],
+    "drawRegions": [
+      [
+        [
+          348,
+          428
+        ],
+        [
+          475,
+          442
+        ],
+        [
+          650,
+          466
+        ],
+        [
+          840,
+          496
+        ],
+        [
+          1030,
+          536
+        ],
+        [
+          1120,
+          580
+        ],
+        [
+          1090,
+          671
+        ],
+        [
+          570,
+          680
+        ],
+        [
+          380,
+          621
+        ]
+      ]
+    ],
+    "wetWidth": 54,
+    "actors": [
+      {
+        "id": "sample-1",
+        "x": 448,
+        "y": 527,
+        "mode": "sitting",
+        "head": null,
+        "outfit": null,
+        "phase": 1730
+      },
+      {
+        "id": "sample-2",
+        "x": 862,
+        "y": 592,
+        "mode": "sitting",
+        "head": null,
+        "outfit": null,
+        "phase": 3350
+      },
+      {
+        "id": "sample-3",
+        "x": 1007,
+        "y": 641,
+        "mode": "moving",
+        "head": "hb-rose-red",
+        "outfit": "tshirt-jeans",
+        "phase": 700
+      },
+      {
+        "id": "sample-4",
+        "x": 683,
+        "y": 526,
+        "mode": "moving",
+        "head": "he-black",
+        "outfit": "cardigan-straight",
+        "phase": 0
+      }
+    ],
+    "lights": [
+      [
+        137,
+        73
+      ],
+      [
+        415,
+        531
+      ],
+      [
+        1045,
+        600
+      ]
+    ],
+    "spawn": [
+      640,
+      610
+    ]
+  }
+}

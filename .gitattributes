@@ -1,0 +1,20 @@
+# Keep text line endings stable on every platform.
+* text=auto eol=lf
+
+# Preserve binary assets byte for byte.
+*.png -text
+*.jpg -text
+*.jpeg -text
+*.gif -text
+*.webp -text
+*.ico -text
+*.webm -text
+*.mp4 -text
+*.wav -text
+*.mp3 -text
+*.ogg -text
+*.woff -text
+*.woff2 -text
+*.ttf -text
+*.pdf -text
+*.zip -text

@@ -1,0 +1,31 @@
+{
+  "status": "pending-visual-review",
+  "purpose": "海邊等信的坐姿與微動試稿",
+  "art_source": "host_image",
+  "route": "built-in image_gen",
+  "identity_reference": "../style-refinement-v1/frames/hb-tshirt-jeans.png",
+  "identity": "短偏分、咖啡髮色、一般表情、米白 T-shirt、牛仔褲、白帆布鞋",
+  "camera": "elevated three-quarter front, facing right",
+  "canvas": [
+    128,
+    160
+  ],
+  "anchor": [
+    64,
+    148
+  ],
+  "finish": "pixel, shared palette, binary alpha, nearest presentation",
+  "motion": "PNG frames from one fixed master; gentle one-pixel breath and brief blink",
+  "output": [
+    "master PNG",
+    "3-5 unique PNG frames",
+    "GIF",
+    "beach HTML preview"
+  ],
+  "constraints": [
+    "no video",
+    "no independent regenerated texture per frame",
+    "do not replace approved standing assets",
+    "pilot only; not all outfits or haircuts"
+  ]
+}

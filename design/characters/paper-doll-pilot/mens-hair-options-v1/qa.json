@@ -1,0 +1,19 @@
+{
+  "status": "needs-visual-review",
+  "approved": "short side-part",
+  "proposed": [
+    "textured fringe crop",
+    "asymmetric diagonal fringe"
+  ],
+  "same_body_and_protected_face": true,
+  "same_palette": true,
+  "canvas": [
+    128,
+    160
+  ],
+  "limits": [
+    "new hairstyles are static proposals; not installed as approved active combinations",
+    "protected face limits fringe overlap",
+    "pure hair-only layers and motion not yet authored"
+  ]
+}

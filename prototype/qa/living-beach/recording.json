@@ -1,0 +1,14 @@
+{
+  "bytes": 1154399,
+  "mime": "video/webm;codecs=vp9",
+  "elapsedMs": 27385.099999997765,
+  "frames": 166,
+  "meanFrameMs": 163.22606060606063,
+  "maxFrameMs": 316.6999999999971,
+  "decoded": {
+    "width": 1280,
+    "height": 800,
+    "readyState": 4
+  },
+  "note": "Canvas scene and interactions only; DOM paper and journal supplied as screenshots."
+}

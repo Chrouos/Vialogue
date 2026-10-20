@@ -1,0 +1,11 @@
+EDIT TARGET input1 is exact runtime sprite guide, 4 columns x2 rows on magenta. Input2 is approved emotion design reference ONLY, not head proportions. Edit ONLY the tiny facial features of input1 characters, preserving EXACT canvas, grid cells, full-body positions, standing poses, short side-part hair, skull size, body proportions, all existing pixel clusters, clothes and silhouette. Do NOT turn these into portraits. Keep all eight small full-body figures exactly in place. Native source sprite is128x160 per cell, shown at 3x horizontally and 3.2x vertically. Face feature area is only x72..86,y52..65 within each native128x160cell. Design sparse strong pixel clusters that read in that very small face. Small anatomically coordinated eyes eyebrows and mouths, never large pasted emojis. No antialiasing, no grain. Warm nostalgic muted RPG pixel style. Do not enlarge heads to fit detail.
+Emotions exactly same order as input2, 4x2:
+top-left NEUTRAL: calm open eyes, small straight closed mouth.
+top-second HAPPY: open softened eyes, subtle rising 2-3pixel closed smile.
+top-third VERY HAPPY: smiling naturally narrowed eyes (curves not ^^ carets), proportionate 3pixel-wide 2pixel-high open smiling mouth, no huge cavity.
+top-fourth AWKWARD: one inner brow raised, hesitant side gaze and tiny crooked closed smile.
+bottom-left SAD: downcast open eyes, inner eyebrows raised, tiny downturned mouth, NO tears.
+bottom-second VERY SAD: stronger worried brow, moist lower eye edge with one small ivory teardrop/short tear track, downturned trembling mouth.
+bottom-third SHY: averted eyes, small closed smile and 1-2 coherent muted pink cheek pixels. No large blush patches or freckles.
+bottom-fourth ANGRY: brows angle down toward center, narrowed focused open eyes, tightly closed downturned mouth.
+Use the approved portrait reference to coordinate each expression, but redraw as economical native game pixel features with clean skin separating brows from eyes. All eight expressions distinct. No symbols, no labels, no text, no animation changes, no cheek icons. Leave pink magenta background identical.

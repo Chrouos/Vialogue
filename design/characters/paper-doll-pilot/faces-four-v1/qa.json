@@ -1,0 +1,73 @@
+{
+  "status": "needs-visual-review",
+  "directions": [
+    "quiet",
+    "warm smiling eyes",
+    "curious",
+    "stubborn"
+  ],
+  "same_canvas": [
+    128,
+    160
+  ],
+  "same_palette": true,
+  "same_scale": true,
+  "unchanged_outside_feature_regions": true,
+  "unchanged_silhouette": true,
+  "all_four_unique_each_hairstyle": true,
+  "approved_active_images_unchanged": true,
+  "proposal_images": 40,
+  "counts": [
+    {
+      "hair": "ha",
+      "changed_pixels_vs_a": [
+        0,
+        92,
+        89,
+        85
+      ]
+    },
+    {
+      "hair": "hb",
+      "changed_pixels_vs_a": [
+        0,
+        89,
+        86,
+        82
+      ]
+    },
+    {
+      "hair": "hc",
+      "changed_pixels_vs_a": [
+        0,
+        89,
+        86,
+        81
+      ]
+    },
+    {
+      "hair": "hd",
+      "changed_pixels_vs_a": [
+        0,
+        93,
+        89,
+        84
+      ]
+    },
+    {
+      "hair": "he",
+      "changed_pixels_vs_a": [
+        0,
+        94,
+        91,
+        85
+      ]
+    }
+  ],
+  "limits": [
+    "C/D static art awaits user review",
+    "no universal face layers for all directions",
+    "no generated-frame animation used",
+    "one clothing design with two palette variants"
+  ]
+}

@@ -1,0 +1,14 @@
+Edit the FIVE traveler faces in this exact 3-column x 2-row sprite layout. Bottom-right slot stays empty magenta. Preserve exact same body/head size, skull, jaw, hair, clothes, pose, positions, camera and fine nostalgic online-RPG pixel rendering. ONLY change eyebrows, eyes and mouth. Do not add text, labels, icons or actual typed emoticons. Face marks must be high-contrast simple coherent pixel shapes, readable when tiny; no grain or extra shading. All figures same person, not five character redesigns.
+Five expression choices, distinct and understated:
+
+TOP LEFT: visual "-.-" deadpan face. Two clearly CLOSED STRAIGHT HORIZONTAL DASH eyes, no pupils, no downward curves. Tiny neutral central dot or tiny straight mouth. Relaxed dry indifferent expression, not sad and not asleep with sagging brows. Graphic dash-dot-dash feeling integrated on the face, not printed text.
+
+TOP CENTER: visual "^_^" happy face. Two CLOSED UPWARD-ARCHED happy eyes, like small inverted U/caret curves. Tiny upward closed smile. No pupils, no open mouth, no teeth or blush. Distinctly different eye curvature from deadpan's FLAT dash eyes. Not huge emoji face.
+
+TOP RIGHT: quiet expressionless "無口" face. Eyes OPEN with simple dark short vertical oval pupils, flat calm brows, no sparkling highlights. NO MOUTH DRAWN at all. Blank, reserved, still endearing. Must differ from deadpan's CLOSED horizontal eyes: these are OPEN vertical eyes. Preserve normal face proportions.
+
+BOTTOM LEFT: melancholy "憂鬱" face. Eyes partly OPEN, clearly drooping down at outer corners; eyebrows inner ends softly RAISED, making a subtle worried slope. Tiny DOWNWARD-CURVED closed mouth. No tears, blue streaks or dramatic crying. Quiet wistful mood with readable downturned eye/mouth directions. Not an angry scowl, not the same deadpan dash face.
+
+BOTTOM CENTER: gentle "溫柔" face. Eyes OPEN, soft narrow almond shapes with tiny visible pupils; relaxed shallow upward outer corners, gently curved relaxed brows; small delicate CLOSED smile. Must not be closed happy eyes: open eyes distinguish it from "^_^". Welcoming understated expression, no wide grin or baby eyes.
+
+No curious round surprised eyes, no 'o' mouth, no stubborn/angry face. Do not return five variations of sleepy open eyes. Eye geometry distinguishes the five: FLAT CLOSED / ARCHED CLOSED / VERTICAL OPEN / DROOPING OPEN / SOFT ALMOND OPEN. Face shapes, scalp and ear size unchanged. No head enlargement. Keep dark warm-brown line thickness sufficient for actual small game sprites, high contrast against warm skin, coherent sparse pixels and limited palette. Preserve scene-free solid magenta background and the bottom-right empty slot.

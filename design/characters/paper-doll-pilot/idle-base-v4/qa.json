@@ -1,0 +1,28 @@
+{
+  "status": "needs-visual-review",
+  "source": "idle-finished\\frames\\frame-00.png",
+  "source_sha256": "e0928e4a51b33c308f648303c2ca7e768405fb2361b4c30d4163f2cba1c7637b",
+  "original_variant_byte_identical": true,
+  "head_region": [
+    0,
+    0,
+    128,
+    68
+  ],
+  "head_region_pixel_identical": true,
+  "outside_garment_pixel_identical": true,
+  "alpha_pixel_identical": true,
+  "changed_vest_pixels": 325,
+  "canvas": [
+    128,
+    160
+  ],
+  "resized": false,
+  "repaletted_base": false,
+  "new_generation": false,
+  "layer_reconstruction_exact": true,
+  "limitations": [
+    "one existing hairstyle and face; only vest color variant",
+    "not yet full modular paper doll or animated replacement layers"
+  ]
+}

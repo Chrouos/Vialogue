@@ -1,0 +1,20 @@
+{
+  "status": "needs-user-visual-review",
+  "expressions": [
+    "-.-",
+    "開朗",
+    "無口",
+    "憂鬱",
+    "溫柔"
+  ],
+  "proposal_images": 50,
+  "canvas": [
+    128,
+    160
+  ],
+  "all_five_unique_each_hair": true,
+  "unchanged_outside_feature_regions": true,
+  "unchanged_alpha": true,
+  "approved_active_images_unchanged": true,
+  "animation": "not generated; static proposals only"
+}

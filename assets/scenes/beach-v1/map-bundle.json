@@ -1,0 +1,90 @@
+{
+  "schema": "generate2dmap.map_bundle.v2",
+  "id": "beach-v1",
+  "world": {
+    "width": 1280,
+    "height": 720,
+    "unit": "px"
+  },
+  "layers": [
+    {
+      "id": "base",
+      "type": "image",
+      "image": "layers/base.png",
+      "name": "neutral base",
+      "kind": "image"
+    }
+  ],
+  "objects": [],
+  "props": {},
+  "collision": {
+    "actorRadius": 9,
+    "ySquash": 0.5,
+    "walkRegions": [
+      {
+        "polygon": [
+          [
+            348,
+            428
+          ],
+          [
+            475,
+            442
+          ],
+          [
+            650,
+            466
+          ],
+          [
+            840,
+            496
+          ],
+          [
+            1030,
+            536
+          ],
+          [
+            1120,
+            580
+          ],
+          [
+            1090,
+            671
+          ],
+          [
+            570,
+            680
+          ],
+          [
+            380,
+            621
+          ]
+        ]
+      }
+    ],
+    "solids": []
+  },
+  "spawns": [
+    {
+      "id": "start",
+      "x": 640,
+      "y": 610
+    }
+  ],
+  "portals": [],
+  "interactions": [
+    {
+      "id": "wet-sand",
+      "x": 640,
+      "y": 480,
+      "reach": 24
+    },
+    {
+      "id": "dry-sand",
+      "x": 760,
+      "y": 600,
+      "reach": 24
+    }
+  ],
+  "anchors": {}
+}

@@ -1,0 +1,57 @@
+{
+  "method": "translation_only_bottom_12px_foot_span",
+  "source_size": [
+    627,
+    627
+  ],
+  "reference_anchor": [
+    268,
+    607
+  ],
+  "frames": [
+    {
+      "frame": 0,
+      "source_anchor": [
+        268,
+        607
+      ],
+      "translation": [
+        0,
+        0
+      ]
+    },
+    {
+      "frame": 1,
+      "source_anchor": [
+        242,
+        607
+      ],
+      "translation": [
+        26,
+        0
+      ]
+    },
+    {
+      "frame": 2,
+      "source_anchor": [
+        268,
+        580
+      ],
+      "translation": [
+        0,
+        27
+      ]
+    },
+    {
+      "frame": 3,
+      "source_anchor": [
+        242,
+        580
+      ],
+      "translation": [
+        26,
+        27
+      ]
+    }
+  ]
+}

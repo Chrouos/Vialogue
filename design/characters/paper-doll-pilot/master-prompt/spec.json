@@ -1,0 +1,27 @@
+{
+  "schema": "generate2dsprite.master_spec.v1",
+  "name": "vialogue-traveler-a",
+  "subject": "a quiet coastal letter-writer, full body",
+  "identity": "An original slender four-head-tall nostalgic early-2000s online RPG traveler, warm peach skin, small inward calm dark eyes, chestnut parted hair with uneven fringe, off-white stand-collar shirt, muted moss green buttoned vest, grey-brown straight cuffed trousers, plain brown ankle shoes. No bag, held letter, hat or accessories in this animation master, to make modular layering practical.",
+  "pose": "relaxed standing three-quarter front facing right, arms relaxed slightly separated from torso, hands empty, both feet planted",
+  "recap": "quiet slender chestnut-haired coastal letter-writer in an off-white shirt, moss-green vest, grey-brown trousers and plain brown shoes",
+  "facing": "right",
+  "facing_parts": null,
+  "view": "slightly elevated three-quarter front game view",
+  "class": "hero",
+  "finish": "pixel",
+  "key": "#FF00FF",
+  "genre": null,
+  "pronoun": "they",
+  "identity_ref": {
+    "path": "../../retro-travelers-v1.png",
+    "sha256": "bad2b3f37cb9296181edf6af04b3d9a6441b4f7afe1e4141d3cbb3e7f43b8216",
+    "what": "the approved three-character art study; use only traveler A, the left column",
+    "copy": "his face, hair, slender proportions and vest outfit; omit the letter and bag for clean layering"
+  },
+  "style_ref": null,
+  "allowed_text": null,
+  "extra_bans": [],
+  "opaque_parts": null,
+  "extra": "Follow the approved early-2000s online RPG style rather than chunky SNES chibi. Fine warm dark contour, desaturated vintage colors, clean fabric shade clusters, restrained small eyes. No modern huge-head anime look, no grain, no stipple, no dithering or texture noise. One person only, not a multi-person sheet."
+}

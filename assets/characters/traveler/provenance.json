@@ -1,0 +1,64 @@
+{
+  "art_source": "existing approved ImageGen art",
+  "exports": [
+    {
+      "file": "layers/head/ha.png",
+      "source": "design/characters/paper-doll-pilot/style-refinement-v1/heads/ha.png",
+      "source_sha256": "31c602b6f012c1abcca7b604e71cc960422c2f4cbad40c5db0e2a156b84e7048",
+      "scope": "combined head, rows0..64"
+    },
+    {
+      "file": "layers/head/hb.png",
+      "source": "design/characters/paper-doll-pilot/style-refinement-v1/heads/hb.png",
+      "source_sha256": "c126def153acc633271f661615b8db462e4af985c3426507cf475ff3493e3385",
+      "scope": "combined head, rows0..64"
+    },
+    {
+      "file": "layers/head/hc.png",
+      "source": "design/characters/paper-doll-pilot/style-refinement-v1/heads/hc.png",
+      "source_sha256": "01e0b8a8f66c5094c0b9708d185c300b892c8e99c42ced61679852cdd536fdca",
+      "scope": "combined head, rows0..64"
+    },
+    {
+      "file": "layers/head/hd.png",
+      "source": "design/characters/paper-doll-pilot/style-refinement-v1/heads/hd.png",
+      "source_sha256": "5a5311b76236029bde6ca68d4188c087dc069dd3de65130e36e57dd3885f3e86",
+      "scope": "combined head, rows0..64"
+    },
+    {
+      "file": "layers/head/he.png",
+      "source": "design/characters/paper-doll-pilot/style-refinement-v1/heads/he.png",
+      "source_sha256": "f47bdc34e1cce4bb25dd3221a411879aba16ff94f837909cb4602825a8546373",
+      "scope": "combined head, rows0..64"
+    },
+    {
+      "file": "layers/outfit/tshirt-jeans.png",
+      "source": "design/characters/paper-doll-pilot/style-refinement-v1/frames/hb-tshirt-jeans.png",
+      "source_sha256": "bb1f3c3b334c25f1edf85649b2ad349bb46b37c53a20275d21d147b50dde61f5",
+      "scope": "combined body and outfit, rows65..159"
+    },
+    {
+      "file": "layers/outfit/cardigan-straight.png",
+      "source": "design/characters/paper-doll-pilot/style-refinement-v1/frames/hb-cardigan-straight.png",
+      "source_sha256": "78295977eb0801f7ab8b33861a391fd42e740a1bde70c6ee5d45699bc4254ed3",
+      "scope": "combined body and outfit, rows65..159"
+    },
+    {
+      "file": "layers/outfit/jacket-shorts.png",
+      "source": "design/characters/paper-doll-pilot/style-refinement-v1/frames/hb-jacket-shorts.png",
+      "source_sha256": "21523fbbda3afa8eeddce7759ec76e7969bf8fe94bcb44ac6028ee5fc5a11321",
+      "scope": "combined body and outfit, rows65..159"
+    }
+  ],
+  "fine_layers_complete": false,
+  "hair_colors": {
+    "status": "approved",
+    "tool": "tools/build_hair_colors.py",
+    "matte_source": "design/characters/paper-doll-pilot/hair-colors-v1/matte-source.png",
+    "matte_sha256": "d06c0e4f2e48b3e174173eb75e607e65bd4c34d9b74ed4dc53ac68695d9849a7",
+    "art_source": "existing approved pixels; built-in image_gen semantic matte; palette LUT",
+    "head_variants": 25,
+    "outfit_combinations": 75,
+    "fine_layers_complete": false
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "status": "adopted-provisionally",
+  "approved_by": "user",
+  "date": "2026-10-19",
+  "version": "expression-runtime-v4",
+  "scope": "eight static expressions, hb short side part, moss vest",
+  "canvas": [128, 160],
+  "frames": ["frames/00.png", "frames/01.png", "frames/02.png", "frames/03.png", "frames/04.png", "frames/05.png", "frames/06.png", "frames/07.png"],
+  "expressions": ["一般", "開心", "超開心", "為難", "傷心", "超傷心", "害羞", "生氣"],
+  "improvements_deferred": true,
+  "todo": "../../../../TODO.md",
+  "animation_integrated": false,
+  "universal_face_layers_complete": false
+}

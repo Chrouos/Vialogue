@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "checks": [
+    "click-to-move arrives and sits",
+    "sending is blocked while a selected image is processing",
+    "new letter with image saved and cooldown starts",
+    "second tab cannot overwrite the active local journey",
+    "closing a stale second tab preserves sent letter and cooldown",
+    "cooldown still permits private drafts",
+    "sample bottle opens at the first accumulated letter",
+    "letters turn in chronological order",
+    "reload preserves held deadline, both drafts, and cooldown",
+    "both saved drafts offer a recovery action",
+    "new draft resumes without bypassing cooldown",
+    "held reply draft resumes in its original bottle",
+    "continuation preserves prior letters and bypasses new-bottle cooldown",
+    "fifth letter returns the complete bottle",
+    "fifth letter offers a persistent return reading entry",
+    "unread return entry survives reload",
+    "return entry opens the full journey and acknowledges its notice",
+    "returned journey can be collected",
+    "another eligible sample can arrive",
+    "unopened sample leaves after elapsed time and resumes waiting",
+    "expired reply text is recoverable without rejoining or overwriting either draft",
+    "expired reply also retains its attached photo",
+    "recovered text can be copied to the clipboard",
+    "unread own bottle returns without invented replies",
+    "mobile beach fits viewport",
+    "timed return notice fits mobile viewport",
+    "mobile return notice does not cover the beach introduction",
+    "mobile writing dialog has no horizontal overflow",
+    "recovered text and photo fit mobile viewport",
+    "white noise starts only after sound button gesture",
+    "no uncaught browser exceptions"
+  ],
+  "viewport_desktop": [
+    1440,
+    960
+  ],
+  "viewport_mobile": [
+    390,
+    844
+  ],
+  "local_file": true
+}

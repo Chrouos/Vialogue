@@ -1,0 +1,63 @@
+{
+  "status": "needs-visual-review",
+  "face_b": "proposed, not approved",
+  "feature_regions": [
+    [
+      73,
+      53,
+      80,
+      60
+    ],
+    [
+      83,
+      53,
+      86,
+      59
+    ],
+    [
+      79,
+      61,
+      85,
+      65
+    ]
+  ],
+  "reference_scale": 0.20289855,
+  "canvas": [
+    128,
+    160
+  ],
+  "approved_originals_untouched": true,
+  "outside_feature_regions_pixel_identical": true,
+  "alpha_silhouette_identical": true,
+  "same_palette": true,
+  "proposal_images": 20,
+  "active_approved_images": 10,
+  "changes": [
+    {
+      "hairstyle": "ha",
+      "changed_face_pixels": 38
+    },
+    {
+      "hairstyle": "hb",
+      "changed_face_pixels": 39
+    },
+    {
+      "hairstyle": "hc",
+      "changed_face_pixels": 42
+    },
+    {
+      "hairstyle": "hd",
+      "changed_face_pixels": 42
+    },
+    {
+      "hairstyle": "he",
+      "changed_face_pixels": 42
+    }
+  ],
+  "limits": [
+    "feature patches are view/pose-specific, not a finished universal face layer",
+    "only static face B reviewed; generated remaining frames not used as animation",
+    "fringe overlap needs visual review for each hairstyle",
+    "second full outfit still not authored"
+  ]
+}

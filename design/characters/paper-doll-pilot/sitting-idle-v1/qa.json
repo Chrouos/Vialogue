@@ -1,0 +1,26 @@
+{
+  "structural_checks_passed": true,
+  "visual_approval": "pending",
+  "gif_frames": 5,
+  "unique_frames": 3,
+  "durations_ms": [
+    2100,
+    950,
+    120,
+    950,
+    1500
+  ],
+  "fixed_ground_and_supporting_hand": true,
+  "texture_drift_after_known_translation": 0,
+  "blink_changes_confined_to_eye_patches": true,
+  "gif_matches_png_pixels": true,
+  "connected_components": [
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "browser_frames_matched": 5,
+  "scope": "one seated outfit only; not sitting-down transition or general animated paper doll"
+}

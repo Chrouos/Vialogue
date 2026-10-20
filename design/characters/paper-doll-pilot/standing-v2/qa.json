@@ -1,0 +1,81 @@
+{
+  "status": "needs-visual-review",
+  "reference": "../idle-finished/frames/frame-00.png",
+  "canvas": [
+    128,
+    160
+  ],
+  "reference_bbox": [
+    53,
+    36,
+    98,
+    148
+  ],
+  "reference_height": 112,
+  "old_height": 119,
+  "new_height": 112,
+  "hair_width_before": 43,
+  "hair_width_after": 34,
+  "face_height_before": 38,
+  "face_height_after": 27,
+  "same_reference_palette": true,
+  "extra_outfit_colors": 4,
+  "palette_colors": 34,
+  "all_eight_unique": true,
+  "binary_alpha": true,
+  "bboxes": {
+    "ha-fa-oa": [
+      55,
+      36,
+      97,
+      148
+    ],
+    "ha-fa-ob": [
+      55,
+      36,
+      97,
+      148
+    ],
+    "ha-fb-oa": [
+      55,
+      36,
+      97,
+      148
+    ],
+    "ha-fb-ob": [
+      55,
+      36,
+      97,
+      148
+    ],
+    "hb-fa-oa": [
+      55,
+      36,
+      97,
+      148
+    ],
+    "hb-fa-ob": [
+      55,
+      36,
+      97,
+      148
+    ],
+    "hb-fb-oa": [
+      55,
+      36,
+      97,
+      148
+    ],
+    "hb-fb-ob": [
+      55,
+      36,
+      97,
+      148
+    ]
+  },
+  "limitations": [
+    "source parts are independently generated: anatomy/pose still differ from reference",
+    "standing only; clothes and neck joins require visual review",
+    "not final modular animation; accepted idle frames were preserved"
+  ]
+}

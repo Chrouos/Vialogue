@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-Hant"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vialogue 角色圖層預覽</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f4efe5;color:#403e38;font:16px/1.6 system-ui,"Microsoft JhengHei",sans-serif}main{max-width:960px;margin:36px auto;padding:24px}h1{font-size:26px;font-weight:550;margin:0 0 8px}.note{color:#736e63;margin:0 0 24px}.layout{display:grid;grid-template-columns:minmax(280px,1fr) 300px;gap:36px}.stage{border:1px solid #d8d0c2;border-radius:14px;background:#eee7da;display:flex;align-items:center;justify-content:center;min-height:510px}canvas{width:384px;height:480px;max-width:100%;object-fit:contain;image-rendering:pixelated}label{display:block;margin:14px 0 6px}select,button{font:inherit;border:1px solid #cec5b6;border-radius:8px;background:#fffaf2;color:inherit;padding:9px 12px;width:100%}button{cursor:pointer;margin-top:22px;background:#e1e7d8}small{display:block;color:#736e63;margin-top:14px}#error{color:#9a3d35;white-space:pre-wrap}@media(max-width:700px){main{margin:0;padding:20px}.layout{grid-template-columns:1fr}.stage{min-height:450px}canvas{width:320px;height:400px}}
+</style>
+<main><h1>角色圖層預覽</h1><p class="note">切換款式檢查疊圖。現在是一般表情的靜態站姿。</p><div class="layout"><div class="stage"><canvas id="sprite"></canvas></div><aside><div id="controls"></div><button id="download">下載透明 PNG</button><small id="coverage"></small><p id="error" role="alert"></p></aside></div></main>
+<script id="catalog" type="application/json">__CATALOG_JSON__</script>
+<script>
+'use strict';
+const catalog=JSON.parse(document.getElementById('catalog').textContent);
+const canvas=document.getElementById('sprite'),ctx=canvas.getContext('2d');
+canvas.width=catalog.canvas.width;canvas.height=catalog.canvas.height;ctx.imageSmoothingEnabled=false;
+const slots=[...catalog.slots].sort((a,b)=>a.z-b.z),selection=new Map(),cache=new Map();let revision=0;
+function load(variant){if(!cache.has(variant._src))cache.set(variant._src,new Promise((resolve,reject)=>{const image=new Image();image.onload=()=>resolve(image);image.onerror=()=>reject(new Error('圖片載入失敗：'+variant.label));image.src=variant._src;}));return cache.get(variant._src);}
+async function draw(){const ticket=++revision;try{const layers=[];for(const slot of slots){const chosen=selection.get(slot.id);if(chosen==null)continue;const variant=slot.variants.find(v=>v.id===chosen);layers.push({image:await load(variant),variant});}if(ticket!==revision)return;ctx.clearRect(0,0,canvas.width,canvas.height);for(const {image,variant} of layers){const offset=variant.offset||[0,0];ctx.globalAlpha=variant.opacity??1;ctx.drawImage(image,offset[0],offset[1]);}ctx.globalAlpha=1;document.getElementById('error').textContent='';}catch(error){document.getElementById('error').textContent=error.message;}}
+function addControl(id,text,options){const label=document.createElement('label');label.textContent=text;label.htmlFor=id;const select=document.createElement('select');select.id=id;for(const item of options){const option=document.createElement('option');option.value=item.id;option.textContent=item.label;select.append(option);}document.getElementById('controls').append(label,select);return {label,select};}
+for(const slot of slots){
+  selection.set(slot.id,slot.default??null);if(!slot.variants.length)continue;
+  const options=slot.required?[...slot.variants]:[{id:'',label:'不使用'},...slot.variants];
+  const {label,select}=addControl('slot-'+slot.id,slot.label,options);select.value=slot.default??'';
+  const axes=[];
+  // Optional selector metadata describes independent choices. The renderer still
+  // consumes the same PNG variant ID, including custom variants without axes.
+  for(const axis of slot.selectors||[]){
+    const control=addControl('axis-'+slot.id+'-'+axis.key,axis.label,axis.options).select;
+    axes.push({axis,control});
+    control.addEventListener('change',()=>{
+      const chosen=Object.fromEntries(axes.map(a=>[a.axis.key,a.control.value]));
+      const variant=slot.variants.find(v=>v.selection&&axes.every(a=>v.selection[a.axis.key]===chosen[a.axis.key]));
+      if(!variant){document.getElementById('error').textContent='這組搭配尚未提供素材。';return;}
+      select.value=variant.id;select.dispatchEvent(new Event('change'));
+    });
+  }
+  function sync(){const current=slot.variants.find(v=>v.id===select.value);for(const {axis,control} of axes)control.value=current?.selection?.[axis.key]??'';}
+  if(axes.length){
+    // Keep the complete variant control accessible for future imported variants;
+    // move it below the primary selectors so everyday changes use separate axes.
+    label.textContent='完整款式（含新增素材）';const details=document.createElement('details');
+    const summary=document.createElement('summary');summary.textContent='其他款式';details.append(summary,label,select);document.getElementById('controls').append(details);
+  }
+  select.addEventListener('change',()=>{selection.set(slot.id,select.value||null);sync();draw();});sync();
+}
+document.getElementById('coverage').textContent=catalog.scope_note||'';
+document.getElementById('download').addEventListener('click',async()=>{await draw();const link=document.createElement('a');link.download='vialogue-character.png';link.href=canvas.toDataURL('image/png');link.click();});
+draw();
+</script></html>

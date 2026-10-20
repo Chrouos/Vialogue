@@ -1,0 +1,2 @@
+const {test}=require('node:test'),assert=require('node:assert/strict'),net=require('node:net'),Q=require('./qa-support.cjs');
+test('QA browser refuses an occupied port instead of attaching to another browser',async()=>{assert.equal(typeof Q.ensurePortFree,'function','port ownership guard is missing');const server=net.createServer();await new Promise(r=>server.listen(0,'127.0.0.1',r));try{await assert.rejects(()=>Q.ensurePortFree(server.address().port),/already in use/);}finally{await new Promise(r=>server.close(r));}});

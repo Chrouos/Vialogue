@@ -1,0 +1,51 @@
+{
+  "art_source": "host_image",
+  "status": "needs-user-visual-review",
+  "canvas": [
+    128,
+    160
+  ],
+  "hair": "approved hb short side part",
+  "palette": "approved 30 colors plus 2 blush colors",
+  "all_eight_unique": true,
+  "unchanged_outside_feature_regions": true,
+  "unchanged_alpha": true,
+  "base_unchanged": true,
+  "base_sha256": "42635c5c3972b7dac589a12228ec4d80ba85f35de67e7a60dd4f63cc92bfdf5a",
+  "changed_pixels": [
+    64,
+    63,
+    83,
+    70,
+    66,
+    68,
+    81,
+    62
+  ],
+  "feature_regions": [
+    [
+      74,
+      52,
+      85,
+      55
+    ],
+    [
+      72,
+      55,
+      87,
+      61
+    ],
+    [
+      75,
+      61,
+      85,
+      65
+    ]
+  ],
+  "limits": [
+    "static trial for one hair only",
+    "not universal modular face layers",
+    "no animation integration",
+    "portrait approval does not approve this runtime interpretation"
+  ]
+}

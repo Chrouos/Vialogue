@@ -1,0 +1,47 @@
+{
+  "status": "prototype-needs-visual-review",
+  "canvas": [
+    128,
+    160
+  ],
+  "anchor": [
+    64,
+    148
+  ],
+  "pose": "standing-three-quarter-right",
+  "art_source": "host_image",
+  "draw_order": [
+    "body",
+    "outfit",
+    "face",
+    "hair"
+  ],
+  "hair": [
+    "a",
+    "b"
+  ],
+  "face": [
+    "a",
+    "b"
+  ],
+  "outfit": [
+    "a",
+    "b"
+  ],
+  "combinations": [
+    "ha-fa-oa",
+    "ha-fa-ob",
+    "ha-fb-oa",
+    "ha-fb-ob",
+    "hb-fa-oa",
+    "hb-fa-ob",
+    "hb-fb-oa",
+    "hb-fb-ob"
+  ],
+  "limitations": [
+    "provisional manual landmark fit; seams need review",
+    "hair is not yet split into front and back layers",
+    "standing only; no motion-specific modular layers",
+    "skin tone, gender/body variants and hair recolor not yet authored"
+  ]
+}

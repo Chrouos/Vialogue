@@ -1,0 +1,70 @@
+{
+  "art_source": "host_image",
+  "status": "needs-user-visual-review",
+  "canvas": [
+    128,
+    160
+  ],
+  "head_rows": [
+    0,
+    65
+  ],
+  "approved_head_byte_identical": true,
+  "original_base_unchanged": true,
+  "binary_alpha": true,
+  "cardigan_byte_identical_to_v1": true,
+  "first_jeans_rows_preserved": [
+    103,
+    160
+  ],
+  "third_jacket_rows_preserved": [
+    65,
+    99
+  ],
+  "third_shoes_rows_preserved": [
+    139,
+    160
+  ],
+  "sampling": "premultiplied BOX, shared40 newbody colors, existing pixels preserved, no dithering",
+  "outfits": [
+    {
+      "id": "tshirt-jeans",
+      "bbox": [
+        54,
+        36,
+        98,
+        148
+      ],
+      "lowest_pixel": 147,
+      "colors": 101
+    },
+    {
+      "id": "cardigan-straight",
+      "bbox": [
+        52,
+        36,
+        98,
+        148
+      ],
+      "lowest_pixel": 147,
+      "colors": 56
+    },
+    {
+      "id": "jacket-shorts",
+      "bbox": [
+        52,
+        36,
+        98,
+        148
+      ],
+      "lowest_pixel": 147,
+      "colors": 97
+    }
+  ],
+  "limits": [
+    "three static full outfits, not separated clothing layers",
+    "only short side part and neutral expression preview",
+    "not animated; not approved yet",
+    "preserved garments retain their previous palette"
+  ]
+}

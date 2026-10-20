@@ -1,0 +1,24 @@
+{
+  "checked_on": "2026-10-19",
+  "catalog_schema": "vialogue.paper-doll.v1",
+  "unit_and_regression_tests": 8,
+  "tests_passed": true,
+  "accepted_art_combinations_matched": 15,
+  "browser_combinations_matched": 75,
+  "preview_works_from_local_file": true,
+  "mobile_width_checked": 390,
+  "mobile_horizontal_overflow": false,
+  "extension_verified": [
+    "new optional slot",
+    "z ordering independent of list order",
+    "offset",
+    "opacity",
+    "disabled optional layer",
+    "invalid selection rejected"
+  ],
+  "scope": "neutral static stand-se only",
+  "fine_art_layers_complete": false,
+  "animation_complete": false,
+  "independent_style_color_selections": 25,
+  "hair_color_art_status": "approved"
+}

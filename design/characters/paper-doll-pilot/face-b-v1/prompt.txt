@@ -1,0 +1,10 @@
+TARGETED FACE VARIANT EDIT of the exact supplied 2x2 idle sprite sheet. Preserve all four cells, exact character scale and placement, skull/head shape, ears, jaw, skin tone, hair, clothing, pose, body silhouette and fine nostalgic online-RPG pixel texture. Solid pure magenta background remains. ONLY alter EYEBROWS, EYES and the tiny MOUTH. The user wants a second selectable BASE FACE, not a temporary exaggerated reaction or smiling emoji.
+
+Original base face A is subdued, tired/dreamy, with heavy downturned upper eyelids. Make base face B quietly alert and self-assured, with a little dry humor:
+- slightly straighter firmer eyebrows, subtly lifted outer ends, SMALL slender upward-tilted almond eyes with dark pupils, not larger eyes;
+- clearly different from A's low sleepy eyelids: eye lines a little sharper and more horizontal, a calm attentive gaze, only restrained dark pixel marks, no glossy sparkling highlights;
+- tiny off-center CLOSED-mouth half-smile, just one gently lifted corner, very understated, not a wide smile, no teeth, no wink;
+- no blush, no freckles, no accessories, no thick angry scowl, no baby cheeks.
+Keep the restrained face shape and neutral everyday personality. These differences must remain visible when displayed as a small game sprite, so use coherent graphic pixel shapes for eyebrows/eyes/mouth instead of subtle gradients. Mouth can be a short dark warm-brown line. Do not add dense details or rough texture.
+In top-left, top-right and bottom-right cell eyes are open with this new base-face B design. Bottom-left still blinks (eyes closed), with same new subtle mouth. Preserve visible eyes and brow positions on skull so existing hairstyles align.
+DO NOT redesign the whole person or change hair, head proportions, clothing pixels, hand positions or foot line. This is the SAME character with one selectable different face. No labels, captions, layout changes, extra faces, big portraits, or UI. Keep identical square 2x2 sheet arrangement.

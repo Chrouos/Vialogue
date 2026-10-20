@@ -1,0 +1,55 @@
+{
+  "status": "hairstyle-stills-approved",
+  "canvas": [
+    128,
+    160
+  ],
+  "hairstyles": [
+    {
+      "id": "ha",
+      "name": "原始髮型",
+      "standing_files": [
+        "../combinations/ha-fa-oa.png",
+        "../combinations/ha-fa-ob.png"
+      ]
+    },
+    {
+      "id": "hb",
+      "name": "短偏分",
+      "standing_files": [
+        "../combinations/hb-fa-oa.png",
+        "../combinations/hb-fa-ob.png"
+      ]
+    },
+    {
+      "id": "hc",
+      "name": "微蓬後梳",
+      "standing_files": [
+        "../combinations/hc-fa-oa.png",
+        "../combinations/hc-fa-ob.png"
+      ]
+    },
+    {
+      "id": "hd",
+      "name": "微捲短髮",
+      "standing_files": [
+        "../combinations/hd-fa-oa.png",
+        "../combinations/hd-fa-ob.png"
+      ]
+    },
+    {
+      "id": "he",
+      "name": "低束小髮髻",
+      "standing_files": [
+        "../combinations/he-fa-oa.png",
+        "../combinations/he-fa-ob.png"
+      ]
+    }
+  ],
+  "faces": 1,
+  "outfit_designs": 1,
+  "outfit_colors": 2,
+  "active_images": 10,
+  "full_modular_layers_complete": false,
+  "new_hairstyle_animation_complete": false
+}

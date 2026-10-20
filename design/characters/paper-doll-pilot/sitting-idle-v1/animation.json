@@ -1,0 +1,52 @@
+{
+  "status": "pending-visual-review",
+  "canvas": [
+    128,
+    160
+  ],
+  "anchor_px": [
+    64,
+    148
+  ],
+  "pose": "sit-se",
+  "frames": [
+    "frames/frame-00.png",
+    "frames/frame-01.png",
+    "frames/frame-02.png",
+    "frames/frame-03.png",
+    "frames/frame-04.png"
+  ],
+  "durations_ms": [
+    2100,
+    950,
+    120,
+    950,
+    1500
+  ],
+  "loop": true,
+  "unique_frames": 3,
+  "head_offset": [
+    -14,
+    30
+  ],
+  "breath_offset": [
+    0,
+    -1
+  ],
+  "fixed_region": [
+    0,
+    122,
+    128,
+    160
+  ],
+  "sampling": "nearest",
+  "source": "sitting-source.png",
+  "method": "generated seated body + exact approved head + existing blink pixels",
+  "limitations": [
+    "single outfit, hairstyle and color only",
+    "one-pixel prototype breath, no articulated chest rig",
+    "no separate wind simulation",
+    "not a sit-down transition",
+    "not adopted in standing catalog"
+  ]
+}

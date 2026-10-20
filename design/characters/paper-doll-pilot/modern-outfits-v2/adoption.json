@@ -1,0 +1,33 @@
+{
+  "status": "approved",
+  "approved_by": "user",
+  "date": "2026-10-19",
+  "version": "modern-outfits-v2",
+  "scope": "three static full outfit designs on short-side-part neutral character",
+  "canvas": [
+    128,
+    160
+  ],
+  "outfits": [
+    {
+      "id": "tshirt-jeans",
+      "label": "T-shirt＋牛仔褲",
+      "frame": "frames/tshirt-jeans.png"
+    },
+    {
+      "id": "cardigan-straight",
+      "label": "針織外套＋直筒褲",
+      "frame": "frames/cardigan-straight.png"
+    },
+    {
+      "id": "jacket-shorts",
+      "label": "短外套＋短褲",
+      "frame": "frames/jacket-shorts.png"
+    }
+  ],
+  "separate_clothing_layers_complete": false,
+  "animation_integrated": false,
+  "neutral_static_hair_combinations_verified": 15,
+  "hair_combination_validation": "../outfit-hair-validation-v1/qa.json",
+  "all_expressions_and_actions_complete": false
+}

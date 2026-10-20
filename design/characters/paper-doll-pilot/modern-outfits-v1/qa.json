@@ -1,0 +1,57 @@
+{
+  "art_source": "host_image",
+  "status": "needs-user-visual-review",
+  "canvas": [
+    128,
+    160
+  ],
+  "head_rows": [
+    0,
+    65
+  ],
+  "approved_head_byte_identical": true,
+  "original_base_unchanged": true,
+  "binary_alpha": true,
+  "sampling": "premultiplied BOX, shared40body colors, no dithering",
+  "outfits": [
+    {
+      "id": "shirt-jeans",
+      "bbox": [
+        53,
+        36,
+        98,
+        148
+      ],
+      "lowest_pixel": 147,
+      "colors": 65
+    },
+    {
+      "id": "cardigan-straight",
+      "bbox": [
+        52,
+        36,
+        98,
+        148
+      ],
+      "lowest_pixel": 147,
+      "colors": 56
+    },
+    {
+      "id": "jacket-wide",
+      "bbox": [
+        52,
+        36,
+        98,
+        148
+      ],
+      "lowest_pixel": 147,
+      "colors": 63
+    }
+  ],
+  "limits": [
+    "three static full outfits, not separated clothing layers",
+    "only short side part and neutral expression preview",
+    "not animated; not approved yet",
+    "clothing silhouettes can differ; check foot positions and fit visually"
+  ]
+}

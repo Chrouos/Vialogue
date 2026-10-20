@@ -1,0 +1,56 @@
+{
+  "art_source": "host_image",
+  "status": "needs-user-visual-review",
+  "canvas": [
+    128,
+    160
+  ],
+  "hair": "approved hb short side part",
+  "palette": "approved30 + 4 blush + 2 tear colors",
+  "all_eight_unique": true,
+  "unchanged_outside_feature_regions": true,
+  "unchanged_alpha": true,
+  "base_unchanged": true,
+  "neutral_and_very_happy_byte_identical_to_v2": true,
+  "awkward_brow_preserved_from_v3": true,
+  "chin_shading_not_reclassified_as_mouth": true,
+  "cyan_tear_pixels": 7,
+  "strong_rose_pixels": 1,
+  "base_sha256": "42635c5c3972b7dac589a12228ec4d80ba85f35de67e7a60dd4f63cc92bfdf5a",
+  "changed_pixels": [
+    64,
+    71,
+    83,
+    73,
+    73,
+    84,
+    81,
+    70
+  ],
+  "feature_regions": [
+    [
+      74,
+      52,
+      85,
+      55
+    ],
+    [
+      72,
+      55,
+      87,
+      61
+    ],
+    [
+      72,
+      61,
+      87,
+      66
+    ]
+  ],
+  "limits": [
+    "static trial for one hair only",
+    "not universal modular face layers",
+    "no animation integration",
+    "mouth and sampling revision awaits visual approval"
+  ]
+}

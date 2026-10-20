@@ -1,0 +1,37 @@
+{
+  "schema": "generate2dsprite.animation_clips.v2",
+  "frames": [
+    "frames/frame-00.png",
+    "frames/frame-01.png",
+    "frames/frame-02.png",
+    "frames/frame-03.png"
+  ],
+  "anchor_px": [
+    64,
+    148
+  ],
+  "clips": {
+    "idle": {
+      "frames": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "duration_ms": [
+        1600,
+        350,
+        140,
+        450
+      ],
+      "loop_policy": "cycle"
+    }
+  },
+  "states": {
+    "idle": "idle"
+  },
+  "sampling": "nearest",
+  "pixel_art": true,
+  "art_source": "host_image",
+  "placeholder": true
+}

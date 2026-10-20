@@ -1,0 +1,53 @@
+{
+  "ok": true,
+  "speed": 108,
+  "budget": 1.8,
+  "tickHz": 60,
+  "cell": 5,
+  "spawns": [
+    {
+      "id": "start",
+      "valid": true,
+      "reachableCells": 5067
+    }
+  ],
+  "results": [
+    {
+      "target": "wet-sand",
+      "kind": "interaction",
+      "from": "start",
+      "ok": true,
+      "reachable": true,
+      "reason": null,
+      "ticks": 60,
+      "distance": 107.761,
+      "maxStep": 1.8,
+      "zeroMotionTicks": 0,
+      "blocked": false,
+      "firedEnRoute": [],
+      "end": [
+        632.5,
+        502.5
+      ]
+    },
+    {
+      "target": "dry-sand",
+      "kind": "interaction",
+      "from": "start",
+      "ok": true,
+      "reachable": true,
+      "reason": null,
+      "ticks": 55,
+      "distance": 97.788,
+      "maxStep": 1.8,
+      "zeroMotionTicks": 0,
+      "blocked": false,
+      "firedEnRoute": [],
+      "end": [
+        737.5,
+        602.5
+      ]
+    }
+  ],
+  "portals": []
+}

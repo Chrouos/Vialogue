@@ -1,0 +1,19 @@
+{
+  "status": "needs-visual-review",
+  "canvas": [
+    128,
+    160
+  ],
+  "variant_type": "vest-color-only",
+  "shared_hair_and_face_pixel_identical": true,
+  "unchanged_outside_garment_mask": true,
+  "silhouette_identical": true,
+  "actual_layer_reconstruction_exact": true,
+  "changed_pixels": 297,
+  "height": 112,
+  "limitations": [
+    "one hairstyle and face only; full-body base still includes other clothes",
+    "two vest colors, not two complete distinct clothing designs",
+    "no new hair/face variants or modular animated layers"
+  ]
+}

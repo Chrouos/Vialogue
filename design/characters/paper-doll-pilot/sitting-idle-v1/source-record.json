@@ -1,0 +1,14 @@
+{
+  "route": "built-in image_gen",
+  "art_source": "host_image + existing approved head/blink",
+  "files_sha256": {
+    "sitting-source.png": "30eb39acef03dae16d53e4b24a25c9b58b9c961de8e862331be82276d4c738f2",
+    "beach-background.png": "edb0c4075619b1888ef899882f0a1f485e64e32596ef34ee40c35dffb58c4230",
+    "master.png": "6dc3d3196cebef7fdcecdb9bdaf43752cc66339fc43a28e0a862eb4b0488a3b4"
+  },
+  "source_generation_ids": [
+    "exec-19b9343f-1861-4c7b-98db-8f0006476f0f",
+    "exec-c1b93913-3a81-4e29-a666-13afc8101449"
+  ],
+  "approval": "pending"
+}

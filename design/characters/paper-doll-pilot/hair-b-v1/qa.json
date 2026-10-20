@@ -1,0 +1,36 @@
+{
+  "status": "needs-visual-review",
+  "reference": "../idle-finished",
+  "source": "source.png",
+  "art_source": "host_image",
+  "canvas": [
+    128,
+    160
+  ],
+  "same_scale": true,
+  "scale": 0.20289855,
+  "same_palette": true,
+  "body_below_y68_pixel_identical_all_frames": true,
+  "protected_visible_face_pixel_identical_all_frames": true,
+  "hair_a_base_byte_sha256": "e0928e4a51b33c308f648303c2ca7e768405fb2361b4c30d4163f2cba1c7637b",
+  "four_active_combinations": 4,
+  "changed_pixels": [
+    491,
+    489,
+    488,
+    475
+  ],
+  "gif_frames": 4,
+  "gif_durations_ms": [
+    1600,
+    350,
+    140,
+    450
+  ],
+  "binary_alpha": true,
+  "limits": [
+    "hair B is a scoped head replacement patch, not a universal hair-only layer for arbitrary faces",
+    "standing/idle only; other directions and seated pose not yet authored",
+    "new hairstyle and animation still require visual approval"
+  ]
+}

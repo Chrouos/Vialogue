@@ -1,0 +1,113 @@
+{
+  "art_source": "host_image + existing",
+  "status": "needs-user-visual-review",
+  "images": 15,
+  "canvas": [
+    128,
+    160
+  ],
+  "old_files_unchanged": true,
+  "neutral_mouth_and_pupil_cores_preserved": true,
+  "first_two_outfit_bodies_unchanged": true,
+  "third_shorts_legs_shoes_unchanged": true,
+  "feet_y": 147,
+  "head_torso_connected": true,
+  "records": [
+    {
+      "hair": "ha",
+      "outfit": "tshirt-jeans",
+      "file": "frames/ha-tshirt-jeans.png",
+      "feet_y": 147
+    },
+    {
+      "hair": "ha",
+      "outfit": "cardigan-straight",
+      "file": "frames/ha-cardigan-straight.png",
+      "feet_y": 147
+    },
+    {
+      "hair": "ha",
+      "outfit": "jacket-shorts",
+      "file": "frames/ha-jacket-shorts.png",
+      "feet_y": 147
+    },
+    {
+      "hair": "hb",
+      "outfit": "tshirt-jeans",
+      "file": "frames/hb-tshirt-jeans.png",
+      "feet_y": 147
+    },
+    {
+      "hair": "hb",
+      "outfit": "cardigan-straight",
+      "file": "frames/hb-cardigan-straight.png",
+      "feet_y": 147
+    },
+    {
+      "hair": "hb",
+      "outfit": "jacket-shorts",
+      "file": "frames/hb-jacket-shorts.png",
+      "feet_y": 147
+    },
+    {
+      "hair": "hc",
+      "outfit": "tshirt-jeans",
+      "file": "frames/hc-tshirt-jeans.png",
+      "feet_y": 147
+    },
+    {
+      "hair": "hc",
+      "outfit": "cardigan-straight",
+      "file": "frames/hc-cardigan-straight.png",
+      "feet_y": 147
+    },
+    {
+      "hair": "hc",
+      "outfit": "jacket-shorts",
+      "file": "frames/hc-jacket-shorts.png",
+      "feet_y": 147
+    },
+    {
+      "hair": "hd",
+      "outfit": "tshirt-jeans",
+      "file": "frames/hd-tshirt-jeans.png",
+      "feet_y": 147
+    },
+    {
+      "hair": "hd",
+      "outfit": "cardigan-straight",
+      "file": "frames/hd-cardigan-straight.png",
+      "feet_y": 147
+    },
+    {
+      "hair": "hd",
+      "outfit": "jacket-shorts",
+      "file": "frames/hd-jacket-shorts.png",
+      "feet_y": 147
+    },
+    {
+      "hair": "he",
+      "outfit": "tshirt-jeans",
+      "file": "frames/he-tshirt-jeans.png",
+      "feet_y": 147
+    },
+    {
+      "hair": "he",
+      "outfit": "cardigan-straight",
+      "file": "frames/he-cardigan-straight.png",
+      "feet_y": 147
+    },
+    {
+      "hair": "he",
+      "outfit": "jacket-shorts",
+      "file": "frames/he-jacket-shorts.png",
+      "feet_y": 147
+    }
+  ],
+  "limits": [
+    "refined hairstyles and jacket are proposals, not automatically approved",
+    "only neutral static three-quarter pose",
+    "hair colors are planned only, current art stays coffee brown",
+    "other expressions and motions not verified"
+  ]
+}

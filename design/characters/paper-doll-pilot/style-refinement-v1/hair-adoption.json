@@ -1,0 +1,18 @@
+{
+  "status": "approved",
+  "approved_by": "user",
+  "date": "2026-10-19",
+  "version": "style-refinement-v1 heads",
+  "hairstyles": [
+    {"id": "ha", "name": "原始髮型", "file": "heads/ha.png"},
+    {"id": "hb", "name": "短偏分", "file": "heads/hb.png"},
+    {"id": "hc", "name": "俐落後梳", "file": "heads/hc.png"},
+    {"id": "hd", "name": "蓬鬆微捲", "file": "heads/hd.png"},
+    {"id": "he", "name": "低束小髮髻", "file": "heads/he.png"}
+  ],
+  "scope": "coffee-brown neutral static three-quarter hairstyle refinements",
+  "heads_include_partial_face_pixels": true,
+  "universal_hair_layers_complete": false,
+  "jacket_refinement_approved": true,
+  "jacket_approval_date": "2026-10-19"
+}
